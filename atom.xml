@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+    <title>Gorg Negre Rural</title>
+    <link href="http://www.gorgnegre.com/atom.xml" rel="self"/>
+    <link href="http://www.gorgnegre.com/"/>
+    <updated>2012-07-15T02:23:38+02:00</updated>
+    <id>http://www.gorgnegre.com/</id>
+    <author>
+        <name>Gorg Negre Rural</name>
+        <email>info@gorgnegre.cat</email>
+    </author>
+ 
+    
+    <entry>
+        <title>ttat</title>
+        <link href="http://www.gorgnegre.com/ttat.html"/>
+        <updated>2012-07-06T00:00:00+02:00</updated>
+        <id>http://www.gorgnegre.com/ttat</id>
+        <content type="html">&lt;div id=&quot;outline-container-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;Ttat&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+
+&lt;p&gt;tres ss
+&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </entry>
+    
+    <entry>
+        <title>From Org mode to Jekyll</title>
+        <link href="http://www.gorgnegre.com/astronomy/linux/my-first-post2.html"/>
+        <updated>2012-07-03T00:00:00+02:00</updated>
+        <id>http://www.gorgnegre.com/astronomy/linux/my-first-post2</id>
+        <content type="html">&lt;div id=&quot;outline-container-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;From Org mode to Jekyll&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+
+
+&lt;p&gt;
+Our purpose is to edit structured filename.org files, and have jekyll
+publish them (or just fragments via tags) to a static website (hosted at
+github). Essentially, I am using org to produce everything between the
+&amp;lt;body&amp;gt; tags on the page and Jekyll to produce the rest. Note that you
+can easily embed html content in your org pages using the &lt;code&gt;+BEGIN_HTML&lt;/code&gt;
+tag.
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-2&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-2&quot;&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Life before the discovery of pressure as F/A [/]&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
+
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-2-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-2-1&quot;&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; A&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-1&quot;&gt;
+
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-2-2&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-2-2&quot;&gt;&lt;span class=&quot;done DONE&quot;&gt;DONE&lt;/span&gt; B&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-2&quot;&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-3&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-3&quot;&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Hygiene is to Health as Moral to Philosophy&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
+
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-4&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-4&quot;&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Política: Pan-arabisme &lt;i&gt;vs.&lt;/i&gt; Europa &amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span class=&quot;tag&quot;&gt;&lt;span class=&quot;TEORIA&quot;&gt;TEORIA&lt;/span&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
+
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-5&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-5&quot;&gt;Foto amb peu&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;
+
+
+&lt;div class=&quot;figure&quot;&gt;
+  &lt;p&gt;
+   &lt;img src=&quot;/img/DSCF0972.JPG&quot; width=&quot;300&quot; height=&quot;150&quot; alt=&quot;My Mug Shot&quot;&gt;
+  &lt;/p&gt;
+  &lt;p&gt;A photo of me&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </entry>
+    
+    <entry>
+        <title>From Org mode to Jekyll.</title>
+        <link href="http://www.gorgnegre.com/astronomy/my-first-post.html"/>
+        <updated>2012-07-03T00:00:00+02:00</updated>
+        <id>http://www.gorgnegre.com/astronomy/my-first-post</id>
+        <content type="html">&lt;div id=&quot;outline-container-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;Intro&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+
+
+&lt;p&gt;
+Our purpose is to edit structured filename.org files, and have jekyll
+publish them (or just fragments via tags) to a static website (hosted at
+github). Essentially, I am using org to produce everything between the
+&amp;lt;body&amp;gt; tags on the page and Jekyll to produce the rest. Note that you
+can easily embed html content in your org pages using the +BEGIN&lt;sub&gt;HTML&lt;/sub&gt;
+tag.
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-2&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-2&quot;&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Life before the discovery of pressure as F/A [/]&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
+
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-2-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-2-1&quot;&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; A&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-1&quot;&gt;
+
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-2-2&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-2-2&quot;&gt;&lt;span class=&quot;done DONE&quot;&gt;DONE&lt;/span&gt; B&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-2&quot;&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-3&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-3&quot;&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Hygiene is to Health as Moral to Philosophy&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
+
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-4&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-4&quot;&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Política: Pan-arabisme &lt;i&gt;vs.&lt;/i&gt; Europa &amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span class=&quot;tag&quot;&gt;&lt;span class=&quot;TEORIA&quot;&gt;TEORIA&lt;/span&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </entry>
+    
+    <entry>
+        <title>Model Helicopter</title>
+        <link href="http://www.gorgnegre.com/helicopter.html"/>
+        <updated>2009-12-02T00:00:00+01:00</updated>
+        <id>http://www.gorgnegre.com/helicopter</id>
+        <content type="html">&lt;div id=&quot;outline-container-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;Indoor Helicopters.&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+
+&lt;p&gt;Test
+&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </entry>
+    
+ 
+</feed>

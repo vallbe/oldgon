@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+    <url>
+        <loc>http://klepas.org/ttat.html</loc>
+        <lastmod>2012-07-06</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://klepas.org/astronomy/linux/my-first-post2.html</loc>
+        <lastmod>2012-07-03</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://klepas.org/astronomy/my-first-post.html</loc>
+        <lastmod>2012-07-03</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://klepas.org/helicopter.html</loc>
+        <lastmod>2009-12-02</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://klepas.org</loc>
+        <lastmod>2012-07-15</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://klepas.org/about.html</loc>
+        <lastmod>2009-11-04</lastmod>
+    </url>
+    <url>
+        <loc>http://klepa.org/archive.html</loc>
+        <lastmod>2012-07-15</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+</urlset>
+ 
