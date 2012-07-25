@@ -57,7 +57,7 @@
 			$(obj).after('<div class="controllers clear">\
 			<span id="'+ options.prevId +'" class="prev"><a href=\"javascript:void(0);\" accesskey="P">← <span class="u">P</span>revious</a></span></a></span>\
 			<span id="'+ options.nextId +'" class="next"><a href=\"javascript:void(0);\" accesskey="N"><span class="u">N</span>ext →</a></span>\
-			<span class="info"><a href="/about.html#work" title="Pop to the work section on the about page">i</a></span>\
+			<span class="info"><a href="/files/pages/about.html#work" title="Pop to the work section on the about page">i</a></span>\
 			</div>');
 			$("a","#"+options.prevId).hide();
 			$("a","#"+options.nextId).hide();

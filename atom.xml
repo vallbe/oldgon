@@ -4,13 +4,100 @@
     <title>Gorg Negre: Astro-Turisme Rural</title>
     <link href="http://www.gorgnegre.com/atom.xml" rel="self"/>
     <link href="http://www.gorgnegre.com/"/>
-    <updated>2012-07-22T03:18:57+02:00</updated>
+    <updated>2012-07-25T05:33:36+02:00</updated>
     <id>http://www.gorgnegre.com/</id>
     <author>
         <name>Gorg Negre: Astro-Turisme Rural</name>
         <email>info@gorgnegre.cat</email>
     </author>
  
+    
+    <entry>
+        <title>Tree Command as a Sitemap Generator</title>
+        <link href="http://www.gorgnegre.com/linux/tree-command-as-a-sitemap-generator.html"/>
+        <updated>2012-07-22T00:00:00+02:00</updated>
+        <id>http://www.gorgnegre.com/linux/tree-command-as-a-sitemap-generator</id>
+        <content type="html">&lt;p&gt;
+This short article shows a simple use of the venerable &lt;code&gt;tree&lt;/code&gt; command to
+produce a clickable html sitemap of a static website for humans.
+&lt;/p&gt;
+
+
+&lt;p&gt;As I actually begin to populate this website, I am using
+&lt;code&gt;tree&lt;/code&gt; as a quick hack to generate &lt;a href=&quot;/files/pages/sitemap.html&quot;&gt;its
+sitemap&lt;/a&gt;. You can achieve better looks by playing a bit with CSS.
+&lt;/p&gt;
+
+
+
+&lt;pre class=&quot;example&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;astro@gorgnegre:/var/www/rootdir/&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;% tree --dirsfirst -a &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+-T &lt;span class=&quot;s2&quot;&gt;&amp;quot;Sitemap for www.gorgnegre.com&amp;quot;&lt;/span&gt; -P &lt;span class=&quot;s2&quot;&gt;&amp;quot;*html&amp;quot;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+-I &lt;span class=&quot;s2&quot;&gt;&amp;quot;files|tasks&amp;quot;&lt;/span&gt; -C -H &lt;span class=&quot;s2&quot;&gt;&amp;quot;http://www.gorgnegre.com&amp;quot;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+--charset UTF-8  -o files/pages/sitemap.html
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;/pre&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;This command is executed from the root directory of the web site. The
+  options used are:
+&lt;dl&gt;
+&lt;dt&gt;&lt;code&gt;--dirsfirst&lt;/code&gt;&lt;/dt&gt;&lt;dd&gt;as the name implies, list directories before files
+                    on the same hierarchy
+&lt;/dd&gt;
+&lt;dt&gt;&lt;code&gt;-a&lt;/code&gt;&lt;/dt&gt;&lt;dd&gt;list all, including hidden files.
+&lt;/dd&gt;
+&lt;dt&gt;&lt;code&gt;-T&lt;/code&gt; title&lt;/dt&gt;&lt;dd&gt;sets the title and H1 header string (in HTML output mode).
+&lt;/dd&gt;
+&lt;dt&gt;&lt;code&gt;-P&lt;/code&gt; pattern&lt;/dt&gt;&lt;dd&gt;list only those files that match the wild-card
+                   pattern. In our example above, I decided to list only
+                   the html files of my website so visitors can jump to
+                   an actual webpage when they click on an item of the
+                   sitemap.
+&lt;/dd&gt;
+&lt;dt&gt;&lt;code&gt;-I&lt;/code&gt; pattern&lt;/dt&gt;&lt;dd&gt;do not list those files that match the wild-card
+                   pattern. In my example, I exclude all files in the
+                   &lt;code&gt;files&lt;/code&gt; and &lt;code&gt;tasks&lt;/code&gt; subdirectories in my webserver
+                   rootdir.
+&lt;/dd&gt;
+&lt;dt&gt;&lt;code&gt;-C&lt;/code&gt;&lt;/dt&gt;&lt;dd&gt;Colorise output.  Needed if you wish to use colors via CCS
+            stylesheet.
+&lt;/dd&gt;
+&lt;dt&gt;&lt;code&gt;-H&lt;/code&gt; &lt;i&gt;baseHREF&lt;/i&gt;&lt;/dt&gt;&lt;dd&gt;turn on HTML output. &lt;i&gt;baseHREF&lt;/i&gt; gives the base
+       location.
+&lt;/dd&gt;
+&lt;dt&gt;&lt;code&gt;--charset&lt;/code&gt;&lt;/dt&gt;&lt;dd&gt;set the character set to use.
+&lt;/dd&gt;
+&lt;dt&gt;&lt;code&gt;-o&lt;/code&gt; &lt;i&gt;filename&lt;/i&gt;&lt;/dt&gt;&lt;dd&gt;output to &lt;i&gt;filename&lt;/i&gt;.
+&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+&lt;pre class=&quot;example&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;sh&quot;&gt; Sitemap &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;www.gorgnegre.com
+
+   http://www.gorgnegre.com
+   ├── linux/
+   │   └── using-emacs-orgmode-to-blog-with-jekyll.html
+   ├── sitemap/
+   │   └── index.html
+   ├── 404.html
+   ├── archives.html
+   └── index.html
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;/pre&gt;
+
+</content>
+    </entry>
     
     <entry>
         <title>Blogging with Emacs Org-mode and Jekyll</title>
@@ -56,10 +143,16 @@ under version control using &lt;a href=&quot;http://git-scm.com/&quot;&gt;Git&lt
 &lt;a href=&quot;https://github.com/gorgnegre/org-jekyll&quot;&gt;https://github.com/gorgnegre/org-jekyll&lt;/a&gt;.&lt;/p&gt;
 
 
+&lt;div id=&quot;outline-container-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-1&quot;&gt;&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-1&quot;&gt;
 
-&lt;div id=&quot;outline-container-1&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-1&quot;&gt;References&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1&quot;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-1-1&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-1-1&quot;&gt;References&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-1&quot;&gt;
 
 &lt;p&gt;This document blends content found in these other sites:
 &lt;/p&gt;&lt;ol&gt;
@@ -72,33 +165,14 @@ under version control using &lt;a href=&quot;http://git-scm.com/&quot;&gt;Git&lt
 &lt;/ol&gt;
 
 
-&lt;div id=&quot;table-of-contents&quot;&gt;
-&lt;h2&gt;Table of Contents&lt;/h2&gt;
-&lt;div id=&quot;text-table-of-contents&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#sec-1&quot;&gt;References&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#sec-1&quot;&gt;From Org-mode to Jekyll&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#sec-2&quot;&gt;Basic Directory Structure&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#sec-3&quot;&gt;Org-mode Publishing Configuration&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#sec-4&quot;&gt;YAML Headers in Org Files&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#sec-5&quot;&gt;Blogging with Emacs Org-mode and Jekyll&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#sec-6&quot;&gt;Summary&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#sec-7&quot;&gt;Improvements&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#sec-7-1&quot;&gt;Including a Table of Contents&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;/div&gt;
 
-&lt;/div&gt;
-
-&lt;div id=&quot;outline-container-1&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-1&quot;&gt;From Org-mode to Jekyll&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-1&quot;&gt;
+&lt;div id=&quot;outline-container-2&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-2&quot;&gt;From Org-mode to Jekyll&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2&quot;&gt;
 
 
 &lt;p&gt;
@@ -111,9 +185,9 @@ that Jekyll is &lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/install&q
 
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-2&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-2&quot;&gt;Basic Directory Structure&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2&quot;&gt;
+&lt;div id=&quot;outline-container-3&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-3&quot;&gt;Basic Directory Structure&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3&quot;&gt;
 
 
 &lt;p&gt;
@@ -168,7 +242,7 @@ Things to note:
 &lt;/li&gt;
 &lt;li&gt;&lt;code&gt;org-jekyll/org/_drafts&lt;/code&gt; will store our post drafts. When
    sufficiently polished, we will move them to &lt;code&gt;org-jekyll/org/_posts&lt;/code&gt;.
-   This workflow will be &lt;a href=&quot;#sec-5&quot;&gt;automatised&lt;/a&gt;. Note that &lt;code&gt;_drafts&lt;/code&gt; files won't be
+   This workflow will be &lt;a href=&quot;#sec-6&quot;&gt;automatised&lt;/a&gt;. Note that &lt;code&gt;_drafts&lt;/code&gt; files won't be
    processed by jekyll since &lt;code&gt;_drafts&lt;/code&gt; is not a special jekyll directory (as
    opposed to &lt;code&gt;_posts&lt;/code&gt;, which it is) and then jekyll ignores
    directory/file names starting with an underscore (or a dot).
@@ -183,9 +257,9 @@ Things to note:
 
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-3&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-3&quot;&gt;Org-mode Publishing Configuration&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3&quot;&gt;
+&lt;div id=&quot;outline-container-4&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-4&quot;&gt;Org-mode Publishing Configuration&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-4&quot;&gt;
 
 &lt;p&gt;So next, let's tell org-mode how we want the export. By default org
 produces complete web pages. However, as Jekyll will parse files with
@@ -224,30 +298,31 @@ if you prefer):
 &lt;span class=&quot;lineno&quot;&gt;20&lt;/span&gt;       &lt;span class=&quot;o&quot;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
 &lt;span class=&quot;lineno&quot;&gt;21&lt;/span&gt; 
 &lt;span class=&quot;lineno&quot;&gt;22&lt;/span&gt;    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;org-mvm&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;23&lt;/span&gt;           &lt;span class=&quot;c1&quot;&gt;;; Path to your org files.&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;24&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:base-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;~/org-jekyll/org/&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;25&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:base-extension&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;org&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;26&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:publishing-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;~/org-jekyll/rootdir/&amp;quot;&lt;/span&gt;   &lt;span class=&quot;c1&quot;&gt;;; Path to your Jekyll project.&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;27&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:recursive&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;28&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:publishing-function&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;org-publish-org-to-html&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;29&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:headline-levels&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;30&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:html-extension&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;html&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;31&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:body-only&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;;; Only export section between &amp;amp;lt;body&amp;amp;gt; &amp;amp;lt;/body&amp;amp;gt; tags&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;32&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt;33&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:author&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;Your Name&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;34&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:email&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;user@example.cat&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;35&lt;/span&gt;     &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;36&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt;37&lt;/span&gt;     &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;org-static-mvm&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;38&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:base-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;~/org-jekyll/org/&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;39&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:base-extension&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;css\\|js\\|png\\|jpg\\|ico\\|gif\\|pdf\\|mp3\\|flac\\|ogg\\|swf\\|php\\|markdown\\|md\\|html\\|htm\\|sh\\|xml\\|gz\\|bz2\\|vcf\\|zip\\|txt\\|tex\\|otf\\|ttf\\|eot\\|rb\\|yml\\|htaccess\\|gitignore&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;40&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:publishing-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;~/org-jekyll/rootdir/&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;41&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:recursive&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;42&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:publishing-function&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;org-publish-attachment&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;43&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt;44&lt;/span&gt;     &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;mvm&amp;quot;&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:components&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;org-mvm&amp;quot;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;org-static-mvm&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;45&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt;46&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;23&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:base-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;~/org-jekyll/org/&amp;quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;;; Path to your org files.&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;24&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:base-extension&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;org&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;25&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:publishing-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;~/org-jekyll/rootdir/&amp;quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;;; Path to your Jekyll project.&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;26&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:recursive&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;27&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:publishing-function&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;org-publish-org-to-html&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;28&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:headline-levels&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;29&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:html-extension&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;html&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;30&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:body-only&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;;; Only export section between &amp;amp;lt;body&amp;amp;gt; &amp;amp;lt;/body&amp;amp;gt; tags&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;31&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:section-numbers&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;32&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:table-of-contents&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;33&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt;34&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:author&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;Your Name&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;35&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:email&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;user@example.cat&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;36&lt;/span&gt;     &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;37&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt;38&lt;/span&gt;     &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;org-static-mvm&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;39&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:base-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;~/org-jekyll/org/&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;40&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:base-extension&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;css\\|js\\|png\\|jpg\\|ico\\|gif\\|pdf\\|mp3\\|flac\\|ogg\\|swf\\|php\\|markdown\\|md\\|html\\|htm\\|sh\\|xml\\|gz\\|bz2\\|vcf\\|zip\\|txt\\|tex\\|otf\\|ttf\\|eot\\|rb\\|yml\\|htaccess\\|gitignore&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;41&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:publishing-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;~/org-jekyll/rootdir/&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;42&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:recursive&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;43&lt;/span&gt;           &lt;span class=&quot;ss&quot;&gt;:publishing-function&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;org-publish-attachment&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;44&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt;45&lt;/span&gt;     &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;mvm&amp;quot;&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:components&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;org-mvm&amp;quot;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;org-static-mvm&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;46&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt;47&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
@@ -293,9 +368,9 @@ Things to note:
 
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-4&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-4&quot;&gt;YAML Headers in Org Files&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-4&quot;&gt;
+&lt;div id=&quot;outline-container-5&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-5&quot;&gt;YAML Headers in Org Files&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-5&quot;&gt;
 
 
 &lt;p&gt;
@@ -373,9 +448,9 @@ throuh &lt;abbr&gt;YAML&lt;/abbr&gt; tags in the &lt;code&gt;_config.yml&lt;/cod
 
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-5&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-5&quot;&gt;&lt;a name=&quot;blogging-org-jekyll&quot; id=&quot;blogging-org-jekyll&quot;&gt;&lt;/a&gt;Blogging with Emacs Org-mode and Jekyll&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-5&quot;&gt;
+&lt;div id=&quot;outline-container-6&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-6&quot;&gt;&lt;a name=&quot;blogging-org-jekyll&quot; id=&quot;blogging-org-jekyll&quot;&gt;&lt;/a&gt;Blogging with Emacs Org-mode and Jekyll&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-6&quot;&gt;
 
 &lt;p&gt;We now have all the required ingredients to have a pleasant experience
 working on our Jekyll website from within Emacs' Org-mode. We write org
@@ -521,9 +596,9 @@ instance.&lt;/p&gt;
 
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-6&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-6&quot;&gt;Summary&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-6&quot;&gt;
+&lt;div id=&quot;outline-container-7&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-7&quot;&gt;Summary&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-7&quot;&gt;
 
 &lt;p&gt;We have seen how to configure Emacs Org-mode so that we can easily
 maintain a static website or blog with Jekyll. To ease the deployment,
@@ -539,7 +614,7 @@ summarised as:
    options, jekyll runs a webserver on &lt;a href=&quot;http://localhost:4000&quot;&gt;http://localhost:4000&lt;/a&gt;, and keeps
    track of changing files under &lt;code&gt;rootdir&lt;/code&gt;.)
 &lt;/li&gt;
-&lt;li&gt;Launch &lt;code&gt;emacs&lt;/code&gt;
+&lt;li&gt;Launch &lt;code&gt;emacs&lt;/code&gt;:
 &lt;ol&gt;
 &lt;li&gt;&lt;code&gt;C-c j d&lt;/code&gt; to open new draft.
 &lt;/li&gt;
@@ -552,7 +627,7 @@ summarised as:
 &lt;/ol&gt;
 
 &lt;/li&gt;
-&lt;li&gt;Copy &lt;code&gt;org-jekyll/rootdir/_site&lt;/code&gt; to live webserver
+&lt;li&gt;Copy &lt;code&gt;org-jekyll/rootdir/_site&lt;/code&gt; to live webserver.
 &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -561,9 +636,9 @@ summarised as:
 
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-7&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-7&quot;&gt;Improvements&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-7&quot;&gt;
+&lt;div id=&quot;outline-container-8&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-8&quot;&gt;Improvements&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-8&quot;&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Include Reyero's hack which I have so far left out.
@@ -583,9 +658,9 @@ summarised as:
 
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-7-1&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;sec-7-1&quot;&gt;Including a Table of Contents&lt;/h4&gt;
-&lt;div class=&quot;outline-text-4&quot; id=&quot;text-7-1&quot;&gt;
+&lt;div id=&quot;outline-container-8-1&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-8-1&quot;&gt;Including a Table of Contents&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-8-1&quot;&gt;
 
 &lt;p&gt;As it happens, &lt;code&gt;org-export&lt;/code&gt; ignores creating a table of contents when
 only the body is exported (as is the case for our &lt;code&gt;org-mvm&lt;/code&gt; publishing

@@ -95,7 +95,7 @@
     <!-- begin image menu -->
 
       <div id="info">
-        <a href="/about.html/#notebook">
+        <a href="/files/pages/about.html#notebook">
           <img src="/files/images/menu-info.png" alt="About &amp; Contact"
           title="About and Contact" />
           <span id="info_link">
@@ -105,7 +105,7 @@
       </div>
 
       <div id="sitemap">
-        <a href="/sitemap/">
+        <a href="/files/pages/sitemap.html">
           <img src="/files/images/menu-sitemap.png" alt="Site Map"
           title="Site Map" />
           <span id="sitemap_link">
@@ -115,7 +115,7 @@
       </div>
 
       <div id="rss">
-        <a href="feed://feeds.feedburner.com/GorgNegre">
+        <a href="http://feeds.feedburner.com/GorgNegre">
           <img src="/files/images/menu-rss.png" alt="RSS feed"
           title="RSS feed"> /
           <span id="rss_link">
@@ -171,7 +171,7 @@
           Linux and open source software">Linux</a></li>
 <!--      <li><a href="/2012/07/03/my-first-pos2.html" title="Bits &
           Bobs">Clicks <span class="amp">&amp;</span> Cuts</a></li> 
-      <li><a href="/about.html" >About <span class="amp">&amp;</span> Contact</a></li>
+      <li><a href="/files/pages/about.html" >About <span class="amp">&amp;</span> Contact</a></li>
       <li><a href="http://feeds.feedburner.com/gorgnegre" title="Feed link" tabindex="0">Feed</a></li>
 -->
 
@@ -211,6 +211,8 @@
   <div id="notebook" class="center clear">
     <div class="page-nav-top">
       
+      
+      <span class="page-nav-item floatRight"><a class="internal" rel="next"  href="/linux/tree-command-as-a-sitemap-generator.html#notebook" title="View Tree Command as a Sitemap Generator">View next article &rarr;</a></span>
       
     </div> <!-- /.page-nav-top -->
     <div class="entry-content colEight">
@@ -271,10 +273,16 @@ under version control using <a href="http://git-scm.com/">Git</a>.
 <a href="https://github.com/gorgnegre/org-jekyll">https://github.com/gorgnegre/org-jekyll</a>.</p>
 
 
+<div id="outline-container-1" class="outline-3">
+<h3 id="sec-1"></h3>
+<div class="outline-text-3" id="text-1">
 
-<div id="outline-container-1" class="outline-4">
-<h4 id="sec-1">References</h4>
-<div class="outline-text-4" id="text-1">
+
+</div>
+
+<div id="outline-container-1-1" class="outline-4">
+<h4 id="sec-1-1">References</h4>
+<div class="outline-text-4" id="text-1-1">
 
 <p>This document blends content found in these other sites:
 </p><ol>
@@ -287,33 +295,14 @@ under version control using <a href="http://git-scm.com/">Git</a>.
 </ol>
 
 
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#sec-1">References</a></li>
-</ul>
-</li>
-<li><a href="#sec-1">From Org-mode to Jekyll</a></li>
-<li><a href="#sec-2">Basic Directory Structure</a></li>
-<li><a href="#sec-3">Org-mode Publishing Configuration</a></li>
-<li><a href="#sec-4">YAML Headers in Org Files</a></li>
-<li><a href="#sec-5">Blogging with Emacs Org-mode and Jekyll</a></li>
-<li><a href="#sec-6">Summary</a></li>
-<li><a href="#sec-7">Improvements</a>
-<ul>
-<li><a href="#sec-7-1">Including a Table of Contents</a></li>
-</ul>
 </div>
 </div>
 
 </div>
 
-</div>
-
-<div id="outline-container-1" class="outline-3">
-<h3 id="sec-1">From Org-mode to Jekyll</h3>
-<div class="outline-text-3" id="text-1">
+<div id="outline-container-2" class="outline-3">
+<h3 id="sec-2">From Org-mode to Jekyll</h3>
+<div class="outline-text-3" id="text-2">
 
 
 <p>
@@ -326,9 +315,9 @@ that Jekyll is <a href="https://github.com/mojombo/jekyll/wiki/install">installe
 
 </div>
 
-<div id="outline-container-2" class="outline-3">
-<h3 id="sec-2">Basic Directory Structure</h3>
-<div class="outline-text-3" id="text-2">
+<div id="outline-container-3" class="outline-3">
+<h3 id="sec-3">Basic Directory Structure</h3>
+<div class="outline-text-3" id="text-3">
 
 
 <p>
@@ -383,7 +372,7 @@ Things to note:
 </li>
 <li><code>org-jekyll/org/_drafts</code> will store our post drafts. When
    sufficiently polished, we will move them to <code>org-jekyll/org/_posts</code>.
-   This workflow will be <a href="#sec-5">automatised</a>. Note that <code>_drafts</code> files won't be
+   This workflow will be <a href="#sec-6">automatised</a>. Note that <code>_drafts</code> files won't be
    processed by jekyll since <code>_drafts</code> is not a special jekyll directory (as
    opposed to <code>_posts</code>, which it is) and then jekyll ignores
    directory/file names starting with an underscore (or a dot).
@@ -398,9 +387,9 @@ Things to note:
 
 </div>
 
-<div id="outline-container-3" class="outline-3">
-<h3 id="sec-3">Org-mode Publishing Configuration</h3>
-<div class="outline-text-3" id="text-3">
+<div id="outline-container-4" class="outline-3">
+<h3 id="sec-4">Org-mode Publishing Configuration</h3>
+<div class="outline-text-3" id="text-4">
 
 <p>So next, let's tell org-mode how we want the export. By default org
 produces complete web pages. However, as Jekyll will parse files with
@@ -439,30 +428,31 @@ if you prefer):
 <span class="lineno">20</span>       <span class="o">&#39;</span><span class="p">(</span>
 <span class="lineno">21</span> 
 <span class="lineno">22</span>    <span class="p">(</span><span class="s">&quot;org-mvm&quot;</span>
-<span class="lineno">23</span>           <span class="c1">;; Path to your org files.</span>
-<span class="lineno">24</span>           <span class="ss">:base-directory</span> <span class="s">&quot;~/org-jekyll/org/&quot;</span>
-<span class="lineno">25</span>           <span class="ss">:base-extension</span> <span class="s">&quot;org&quot;</span>
-<span class="lineno">26</span>           <span class="ss">:publishing-directory</span> <span class="s">&quot;~/org-jekyll/rootdir/&quot;</span>   <span class="c1">;; Path to your Jekyll project.</span>
-<span class="lineno">27</span>           <span class="ss">:recursive</span> <span class="no">t</span>
-<span class="lineno">28</span>           <span class="ss">:publishing-function</span> <span class="nv">org-publish-org-to-html</span>
-<span class="lineno">29</span>           <span class="ss">:headline-levels</span> <span class="mi">6</span>
-<span class="lineno">30</span>           <span class="ss">:html-extension</span> <span class="s">&quot;html&quot;</span>
-<span class="lineno">31</span>           <span class="ss">:body-only</span> <span class="no">t</span> <span class="c1">;; Only export section between &amp;lt;body&amp;gt; &amp;lt;/body&amp;gt; tags</span>
-<span class="lineno">32</span> 
-<span class="lineno">33</span>           <span class="ss">:author</span> <span class="s">&quot;Your Name&quot;</span>
-<span class="lineno">34</span>           <span class="ss">:email</span> <span class="s">&quot;user@example.cat&quot;</span>
-<span class="lineno">35</span>     <span class="p">)</span>
-<span class="lineno">36</span> 
-<span class="lineno">37</span>     <span class="p">(</span><span class="s">&quot;org-static-mvm&quot;</span>
-<span class="lineno">38</span>           <span class="ss">:base-directory</span> <span class="s">&quot;~/org-jekyll/org/&quot;</span>
-<span class="lineno">39</span>           <span class="ss">:base-extension</span> <span class="s">&quot;css\\|js\\|png\\|jpg\\|ico\\|gif\\|pdf\\|mp3\\|flac\\|ogg\\|swf\\|php\\|markdown\\|md\\|html\\|htm\\|sh\\|xml\\|gz\\|bz2\\|vcf\\|zip\\|txt\\|tex\\|otf\\|ttf\\|eot\\|rb\\|yml\\|htaccess\\|gitignore&quot;</span>
-<span class="lineno">40</span>           <span class="ss">:publishing-directory</span> <span class="s">&quot;~/org-jekyll/rootdir/&quot;</span>
-<span class="lineno">41</span>           <span class="ss">:recursive</span> <span class="no">t</span>
-<span class="lineno">42</span>           <span class="ss">:publishing-function</span> <span class="nv">org-publish-attachment</span><span class="p">)</span>
-<span class="lineno">43</span> 
-<span class="lineno">44</span>     <span class="p">(</span><span class="s">&quot;mvm&quot;</span> <span class="ss">:components</span> <span class="p">(</span><span class="s">&quot;org-mvm&quot;</span> <span class="s">&quot;org-static-mvm&quot;</span><span class="p">))</span>
-<span class="lineno">45</span> 
-<span class="lineno">46</span> <span class="p">))</span>
+<span class="lineno">23</span>           <span class="ss">:base-directory</span> <span class="s">&quot;~/org-jekyll/org/&quot;</span> <span class="c1">;; Path to your org files.</span>
+<span class="lineno">24</span>           <span class="ss">:base-extension</span> <span class="s">&quot;org&quot;</span>
+<span class="lineno">25</span>           <span class="ss">:publishing-directory</span> <span class="s">&quot;~/org-jekyll/rootdir/&quot;</span> <span class="c1">;; Path to your Jekyll project.</span>
+<span class="lineno">26</span>           <span class="ss">:recursive</span> <span class="no">t</span>
+<span class="lineno">27</span>           <span class="ss">:publishing-function</span> <span class="nv">org-publish-org-to-html</span>
+<span class="lineno">28</span>           <span class="ss">:headline-levels</span> <span class="mi">6</span>
+<span class="lineno">29</span>           <span class="ss">:html-extension</span> <span class="s">&quot;html&quot;</span>
+<span class="lineno">30</span>           <span class="ss">:body-only</span> <span class="no">t</span> <span class="c1">;; Only export section between &amp;lt;body&amp;gt; &amp;lt;/body&amp;gt; tags</span>
+<span class="lineno">31</span>           <span class="ss">:section-numbers</span> <span class="no">nil</span>
+<span class="lineno">32</span>           <span class="ss">:table-of-contents</span> <span class="no">nil</span>
+<span class="lineno">33</span> 
+<span class="lineno">34</span>           <span class="ss">:author</span> <span class="s">&quot;Your Name&quot;</span>
+<span class="lineno">35</span>           <span class="ss">:email</span> <span class="s">&quot;user@example.cat&quot;</span>
+<span class="lineno">36</span>     <span class="p">)</span>
+<span class="lineno">37</span> 
+<span class="lineno">38</span>     <span class="p">(</span><span class="s">&quot;org-static-mvm&quot;</span>
+<span class="lineno">39</span>           <span class="ss">:base-directory</span> <span class="s">&quot;~/org-jekyll/org/&quot;</span>
+<span class="lineno">40</span>           <span class="ss">:base-extension</span> <span class="s">&quot;css\\|js\\|png\\|jpg\\|ico\\|gif\\|pdf\\|mp3\\|flac\\|ogg\\|swf\\|php\\|markdown\\|md\\|html\\|htm\\|sh\\|xml\\|gz\\|bz2\\|vcf\\|zip\\|txt\\|tex\\|otf\\|ttf\\|eot\\|rb\\|yml\\|htaccess\\|gitignore&quot;</span>
+<span class="lineno">41</span>           <span class="ss">:publishing-directory</span> <span class="s">&quot;~/org-jekyll/rootdir/&quot;</span>
+<span class="lineno">42</span>           <span class="ss">:recursive</span> <span class="no">t</span>
+<span class="lineno">43</span>           <span class="ss">:publishing-function</span> <span class="nv">org-publish-attachment</span><span class="p">)</span>
+<span class="lineno">44</span> 
+<span class="lineno">45</span>     <span class="p">(</span><span class="s">&quot;mvm&quot;</span> <span class="ss">:components</span> <span class="p">(</span><span class="s">&quot;org-mvm&quot;</span> <span class="s">&quot;org-static-mvm&quot;</span><span class="p">))</span>
+<span class="lineno">46</span> 
+<span class="lineno">47</span> <span class="p">))</span>
 </code></pre>
 </div>
 
@@ -508,9 +498,9 @@ Things to note:
 
 </div>
 
-<div id="outline-container-4" class="outline-3">
-<h3 id="sec-4">YAML Headers in Org Files</h3>
-<div class="outline-text-3" id="text-4">
+<div id="outline-container-5" class="outline-3">
+<h3 id="sec-5">YAML Headers in Org Files</h3>
+<div class="outline-text-3" id="text-5">
 
 
 <p>
@@ -588,9 +578,9 @@ throuh <abbr>YAML</abbr> tags in the <code>_config.yml</code> file.</p>
 
 </div>
 
-<div id="outline-container-5" class="outline-3">
-<h3 id="sec-5"><a name="blogging-org-jekyll" id="blogging-org-jekyll"></a>Blogging with Emacs Org-mode and Jekyll</h3>
-<div class="outline-text-3" id="text-5">
+<div id="outline-container-6" class="outline-3">
+<h3 id="sec-6"><a name="blogging-org-jekyll" id="blogging-org-jekyll"></a>Blogging with Emacs Org-mode and Jekyll</h3>
+<div class="outline-text-3" id="text-6">
 
 <p>We now have all the required ingredients to have a pleasant experience
 working on our Jekyll website from within Emacs' Org-mode. We write org
@@ -736,9 +726,9 @@ instance.</p>
 
 </div>
 
-<div id="outline-container-6" class="outline-3">
-<h3 id="sec-6">Summary</h3>
-<div class="outline-text-3" id="text-6">
+<div id="outline-container-7" class="outline-3">
+<h3 id="sec-7">Summary</h3>
+<div class="outline-text-3" id="text-7">
 
 <p>We have seen how to configure Emacs Org-mode so that we can easily
 maintain a static website or blog with Jekyll. To ease the deployment,
@@ -754,7 +744,7 @@ summarised as:
    options, jekyll runs a webserver on <a href="http://localhost:4000">http://localhost:4000</a>, and keeps
    track of changing files under <code>rootdir</code>.)
 </li>
-<li>Launch <code>emacs</code>
+<li>Launch <code>emacs</code>:
 <ol>
 <li><code>C-c j d</code> to open new draft.
 </li>
@@ -767,7 +757,7 @@ summarised as:
 </ol>
 
 </li>
-<li>Copy <code>org-jekyll/rootdir/_site</code> to live webserver
+<li>Copy <code>org-jekyll/rootdir/_site</code> to live webserver.
 </li>
 </ol>
 
@@ -776,9 +766,9 @@ summarised as:
 
 </div>
 
-<div id="outline-container-7" class="outline-3">
-<h3 id="sec-7">Improvements</h3>
-<div class="outline-text-3" id="text-7">
+<div id="outline-container-8" class="outline-3">
+<h3 id="sec-8">Improvements</h3>
+<div class="outline-text-3" id="text-8">
 
 <ul>
 <li>Include Reyero's hack which I have so far left out.
@@ -798,9 +788,9 @@ summarised as:
 
 </div>
 
-<div id="outline-container-7-1" class="outline-4">
-<h4 id="sec-7-1">Including a Table of Contents</h4>
-<div class="outline-text-4" id="text-7-1">
+<div id="outline-container-8-1" class="outline-4">
+<h4 id="sec-8-1">Including a Table of Contents</h4>
+<div class="outline-text-4" id="text-8-1">
 
 <p>As it happens, <code>org-export</code> ignores creating a table of contents when
 only the body is exported (as is the case for our <code>org-mvm</code> publishing
@@ -855,8 +845,10 @@ for an implementation.
     <div class="page-nav-bottom">
       
       
+      <span class="page-nav-item floatRight"><a class="internal" rel="next"  href="/linux/tree-command-as-a-sitemap-generator.html#notebook" title="View Tree Command as a Sitemap Generator">View next article &rarr;</a></span>
+      
     </div> <!-- /.page-nav-bottom -->
-  </div> <!-- /#notebook.center.clear -->
+  </div> <!-- #notebook.center.clear -->
 
         <div id="footer" class="center clear">
     <ul class="nav nav-footer caps">
@@ -869,7 +861,7 @@ for an implementation.
           Linux and open source software">Linux</a></li>
 <!--      <li><a href="/2012/07/03/my-first-pos2.html" title="Bits &
           Bobs">Clicks <span class="amp">&amp;</span> Cuts</a></li> 
-      <li><a href="/about.html" >About <span class="amp">&amp;</span> Contact</a></li>
+      <li><a href="/files/pages/about.html" >About <span class="amp">&amp;</span> Contact</a></li>
       <li><a href="http://feeds.feedburner.com/gorgnegre" title="Feed link" tabindex="0">Feed</a></li>
 -->
 
@@ -919,9 +911,9 @@ for an implementation.
         <p class="copyright">Laboriously farming Mas Gorg Negre since <abbr class="date"
             title="1463">MCDLXIII</abbr>.</p>
 <!--        <p>
-          For an overview of the site, see the <a href="/sitemap/"
+          For an overview of the site, see the <a href="/files/pages/sitemap.html"
           title="View the site map">site map</a> or <a
-          href="/archives.html#cover" title="View the notebook
+          href="/files/pages/archives.html#cover" title="View the notebook
           archives">notebook archives</a>.
         </p>
 -->

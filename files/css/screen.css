@@ -52,6 +52,36 @@ html { overflow-y: scroll; } /* Fixes Firefox scrollbar jump */
     font-style: italic;
     }
 
+@font-face {
+  font-family: "Coelnische Fraktur M";
+  src: url(/fonts/CoelnischeFraktur_M.otf) format("opentype");
+}
+p.prelude {
+  font-size: 1.8em; /* 18 */
+  float: right;
+  text-indent: 0 !important;
+  display: block;
+}
+p.prelude:first-letter {
+                margin-left: -1.071em; /* We have 120 of space */
+                margin-right: 100%;
+                margin-bottom: -0.894em;
+                font-size: 6.222em; /* 112 */
+                padding-right: 0.071em; /* 8 */
+                line-height: 0.9; /* Aligns to cap-height of para. */
+                color: #BB0000;
+                text-align: right;
+                float: right;
+                font-family: "Coelnische Fraktur M", Georgia, "DejaVu Serif", Times, "Times New Roman", serif;
+                font-style: normal;
+}
+p.prelude:first-line {
+                font-variant: small-caps;
+                letter-spacing: 0.06em; /* 2 */
+                text-indent: 0;
+}
+
+
 body {
     background: #ebebeb url(/files/images/bg.png) repeat;
     text-align: center; /* For IE centering. */

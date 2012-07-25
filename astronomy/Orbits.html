@@ -1,0 +1,495 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+<title>Orbits</title>
+<script language="JavaScript">
+var puw = 0;
+
+function win0(which,title,h,v,sb,rs,mess) {if (v > screen.height) {v = screen.height-50;} puw = window.open("","win2",
+"toolbar=0,status=0,scrollbars="+sb+",location=0,resizable="+rs+",menubar=1,screenx=0,screeny=0,width="+h+",height="+v);
+ if (window.focus) {puw.focus()}
+ puw.document.writeln("<html><head><title>" + title + "</title></head>"
+   +"<body bgcolor=white marginheight=0 marginwidth=0 leftmargin=0 topmargin=0><center>"
+   +"<a href='javascript:window.close();'><img src=../" + which +" border=0></a>" + mess + "</center></body></html>");}
+
+function win1(file,h,v) {if (v > screen.height-80) {v = screen.height-80;}
+puw = window.open(file + ".html","win2",
+"toolbar=0,status=0,scrollbars=1,location=0,resizable=1,menubar=1,screenx=0,screeny=0,width=" + h +",height=" + v);
+if (window.focus) {puw.focus()}}
+
+function ref(what,n) {puw = window.open("","win2",
+"toolbar=0,status=0,scrollbars=0,location=0,resizable=1,menubar=0,screenx=0,screeny=0,width=400,height=100");
+ if (window.focus) {puw.focus()}
+ puw.document.writeln("<html><head><title>Reference " + n + "</title></head>"
+   +"<body bgcolor=white >" + what + "<br></body></html>");}
+
+function hidepic()
+{ if (puw.location) {puw.close();}}
+</script>
+<style type="text/css"><!--A{text-decoration:none} A:hover{text-decoration:underline}--></style>
+</head><body onfocus="hidepic();" bgcolor="#ffffff">
+<center><font color="red"><h1>Orbits and gravitation</h1></font>
+<hr>
+<table bgcolor="#ccccff" border="0" cellpadding="4" cellspacing="0">
+<tbody><tr>
+<td><a href="http://www-history.mcs.st-and.ac.uk/Indexes/Astronomy.html">Mathematical Astronomy index</a>
+</td><td align="right"><a href="http://www-history.mcs.st-and.ac.uk/Indexes/HistoryTopics.html">History&nbsp;Topics&nbsp;Index</a><br>
+</td></tr></tbody></table></center>
+<a href="http://www-history.mcs.st-and.ac.uk/PrintHT/Orbits.html" target="_blank">Version for printing</a>
+<hr>
+<p align="justify">
+<a name="3"></a>Although the motions of the planets were discussed by
+the Greeks they believed that the planets revolved round the Earth so
+are of little interest to us in this article although the method of
+epicycles is an early application of <a href="javascript:win1('../Glossary/fourier_analysis',350,200)" onmouseover="window.status='Click for glossary entry';return true"><font color="green">Fourier series</font></a>. 
+</p><p align="justify">
+<a name="5"></a>The first to propose a system of planetary paths which would set the scene for major advances was <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Copernicus.html" onclick="javascript:win1('../Mathematicians/Copernicus',550,800); return false;">Copernicus</a> who in <i>De revolutionibus orbium coelestium</i> (1543), argued that the planets and the Earth moved round the Sun. Although a major breakthrough, <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Copernicus.html" onclick="javascript:win1('../Mathematicians/Copernicus',550,800); return false;">Copernicus</a>
+proposed circular paths for the planets and accurate astronomical
+observations soon began to show that his proposal was not strictly
+accurate. <br>
+<br>
+<a name="7">You can see </a><a href="javascript:win0('Diagrams/Copernicus_system.gif','Copernicus%20solar%20system',319,319,0,0,'')">a diagram</a> from <i>De revolutionibus orbium coelestium</i> showing Copernicus's solar system.
+</p><p align="justify">
+<a name="9"></a>In 1600 <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Kepler.html" onclick="javascript:win1('../Mathematicians/Kepler',550,800); return false;">Kepler</a> became assistant to <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Brahe.html" onclick="javascript:win1('../Mathematicians/Brahe',550,800); return false;">Tycho Brahe</a> who was making accurate observations of the planets. After <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Brahe.html" onclick="javascript:win1('../Mathematicians/Brahe',550,800); return false;">Brahe</a> died in 1601 <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Kepler.html" onclick="javascript:win1('../Mathematicians/Kepler',550,800); return false;">Kepler</a> continued the work, calculating planetary paths to unprecedented accuracy.
+</p><p align="justify">
+<a name="s9"></a><a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Kepler.html" onclick="javascript:win1('../Mathematicians/Kepler',550,800); return false;">Kepler</a>
+showed that a planet moves round the Sun in an elliptical path which
+has the Sun in one of its two foci. He also showed that a line joining
+the planet to the Sun sweeps out equal areas in equal times as the
+planet describes its path. Both these laws were first formulated for
+the planet Mars, and published in <i>Astronomia Nova</i> (1609).<br>
+<br>
+<a name="7">You can see </a><a href="javascript:win0('Diagrams/Kepler_orbit.gif','Kepler%20elliptical%20path',263,323,0,0,'')">a diagram</a> from <i>Astronomia Nova</i> showing Kepler's elliptical path for Mars.
+</p><p align="justify">
+<a name="15"></a>However scientists certainly did not accept <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Kepler.html" onclick="javascript:win1('../Mathematicians/Kepler',550,800); return false;">Kepler</a>'s
+first two laws with enthusiasm. The first was given a cool reception
+and was certainly thought to require further work to confirm it. The
+second of <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Kepler.html" onclick="javascript:win1('../Mathematicians/Kepler',550,800); return false;">Kepler</a>'s laws suffered an even worse fate in being essentially ignored by scientists for around 80 years.
+</p><p align="justify">
+<a name="17"></a><a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Kepler.html" onclick="javascript:win1('../Mathematicians/Kepler',550,800); return false;">Kepler</a>'s
+third law, that the squares of the periods of planets are proportional
+to the cubes of the mean radii of their paths, appeared in <i>Harmonice mundi</i> (1619) and, perhaps surprisingly in view of the above comments, was widely accepted right from the time of its publication.
+</p><p align="justify">
+<a name="19"></a>In 1679 <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Hooke.html" onclick="javascript:win1('../Mathematicians/Hooke',550,800); return false;">Hooke</a> wrote a letter to <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newton.html" onclick="javascript:win1('../Mathematicians/Newton',550,800); return false;">Newton</a>.
+In the letter he explained how he considered planetary motion to be the
+result of a central force continuously diverting the planet from its
+path in a straight line. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newton.html" onclick="javascript:win1('../Mathematicians/Newton',550,800); return false;">Newton</a>
+did not answer this directly but explained his own idea that the
+rotation of the Earth could be proved from the fact that an object
+dropped from the top of a tower should have a greater tangential
+velocity than one dropped near the foot of the tower.
+</p><p align="justify">
+<a name="s19"></a><a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newton.html" onclick="javascript:win1('../Mathematicians/Newton',550,800); return false;">Newton</a>
+provided a sketch of the path that the particle would follow, quite
+incorrectly showing it spiral towards the centre of the Earth. Hooke
+replied that his theory of planetary motion would lead to the path of
+the particle being an ellipse so that the particle, were it not for the
+fact that the Earth was in the way, would return to its original
+position after traversing the ellipse.
+</p><p align="justify">
+<a name="23"></a>Newton, not one to like being corrected, had to admit that his original sketch was incorrect but he "corrected" <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Hooke.html" onclick="javascript:win1('../Mathematicians/Hooke',550,800); return false;">Hooke</a>'s sketch on the assumption that gravity was constant. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Hooke.html" onclick="javascript:win1('../Mathematicians/Hooke',550,800); return false;">Hooke</a> replied to <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newton.html" onclick="javascript:win1('../Mathematicians/Newton',550,800); return false;">Newton</a> that his own theory involved an inverse square law for gravitational attraction. Many years later <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Hooke.html" onclick="javascript:win1('../Mathematicians/Hooke',550,800); return false;">Hooke</a> was to claim priority for proposing the inverse square law of gravitation and used this letter to <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newton.html" onclick="javascript:win1('../Mathematicians/Newton',550,800); return false;">Newton</a> to support his claim.
+</p><p align="justify">It is worth emphasising that there is a major
+step to be made from an inverse square law of force to explain
+planetary motion and a universal law of gravitation. Certainly the
+motion of the Moon round the Earth was not seen to necessarily be part
+of the same laws which govern the motion of the planets round the Sun.
+</p><p align="justify">
+<a name="27"></a>Fifty years after these events <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newton.html" onclick="javascript:win1('../Mathematicians/Newton',550,800); return false;">Newton</a>
+was to record his own recollections of these events which, although
+interesting, do not really agree with the known historical facts! [I
+preserve <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newton.html" onclick="javascript:win1('../Mathematicians/Newton',550,800); return false;">Newton</a>'s old English.]
+</p><blockquote><p align="justify">
+<i>In the same year I began to think of gravity extending to ye orb of
+the Moon and (having found out how to estimate the force with wch globe
+revolving within a sphere presses the surface of a sphere) from
+Kepler's rule of the periodical times of the Planets being in
+sesquialternate proportion to their distances from the centres of their
+Orbs, I deduced that the forces wch keep the Planets in their Orbs must
+reciprocally as the squares of their distances from the centres about
+wch they revolve: and thereby compared the force requisite to keep the
+Moon in her Orb with the force of gravity at the surface of the Earth,
+and found them answer pretty nearly. All this was in the two plague
+years of 1665-1666... </i>
+</p></blockquote><p align="justify">
+<a name="31"></a>In 1684 <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Wren.html" onclick="javascript:win1('../Mathematicians/Wren',550,800); return false;">Wren</a>, <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Hooke.html" onclick="javascript:win1('../Mathematicians/Hooke',550,800); return false;">Hooke</a> and <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Halley.html" onclick="javascript:win1('../Mathematicians/Halley',550,800); return false;">Halley</a>
+discussed, at the Royal Society, whether the elliptical shape of
+planetary orbits was a consequence of an inverse square law of force
+depending on the distance from the Sun. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Halley.html" onclick="javascript:win1('../Mathematicians/Halley',550,800); return false;">Halley</a> wrote that
+</p><blockquote><p align="justify">
+<i>Mr Hook said that he had it, but that he would conceale it for some
+time so that others, triing and failing might know how to value it,
+when he should make it publick. </i>
+</p></blockquote><p align="justify">
+<a name="35"></a>Later in the same year in August, <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Halley.html" onclick="javascript:win1('../Mathematicians/Halley',550,800); return false;">Halley</a> visited <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newton.html" onclick="javascript:win1('../Mathematicians/Newton',550,800); return false;">Newton</a> in Cambridge and asked him what orbit a body would follow under an inverse square law of force
+</p><blockquote><p align="justify">
+Sr <i>Isaac replied immediately
+that it would be an Ellipsis, the Doctor struck with joy and amasement
+asked him how he knew it, why, said he I have calculated it, whereupon
+Dr Halley asked him for his calculation without any farther delay, Sr
+Isaac looked among his papers but could not find it, but he promised
+him to renew it, and then to send it him.</i>
+</p></blockquote><p align="justify">
+<a name="39"></a>Despite the claims by <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newton.html" onclick="javascript:win1('../Mathematicians/Newton',550,800); return false;">Newton</a> in the above quote, he had in fact proved this result in 1680 as a direct result of the letters from <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Hooke.html" onclick="javascript:win1('../Mathematicians/Hooke',550,800); return false;">Hooke</a>. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newton.html" onclick="javascript:win1('../Mathematicians/Newton',550,800); return false;">Newton</a> indeed reworked his proof and sent a nine page paper <i>De motu corporum in gyrum</i> (On the motion of bodies in an orbit) to <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Halley.html" onclick="javascript:win1('../Mathematicians/Halley',550,800); return false;">Halley</a>. It did not state the law of universal gravitation nor <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newton.html" onclick="javascript:win1('../Mathematicians/Newton',550,800); return false;">Newton</a>'s three laws of motion. All this was to develop over the next couple of years to become the basis for the <i>Principia</i>. 
+</p><p align="justify">
+<a name="41"></a><a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Halley.html" onclick="javascript:win1('../Mathematicians/Halley',550,800); return false;">Halley</a> was largely responsible for ensuring that the <i>Principia</i> was published. He received <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newton.html" onclick="javascript:win1('../Mathematicians/Newton',550,800); return false;">Newton</a>'s complete manuscript by April of 1687 but there were many problems not the least being that <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newton.html" onclick="javascript:win1('../Mathematicians/Newton',550,800); return false;">Newton</a> tried to prevent the publication of the Book III when <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Hooke.html" onclick="javascript:win1('../Mathematicians/Hooke',550,800); return false;">Hooke</a> claimed priority with the inverse square law of force.
+</p><p align="justify">
+<a name="43"></a>In the <i>Principia</i> the problem of two attracting
+bodies with an inverse square law of force is completely solved (in
+Propositions 1-17, 57-60 in Book I). <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newton.html" onclick="javascript:win1('../Mathematicians/Newton',550,800); return false;">Newton</a> argues that an inverse square law must give produce elliptical, parabolic or hyperbolic orbits. 
+</p><p align="justify">
+<a name="45"></a>A bright comet had appeared on 14 November 1680. It
+remained visible until 5 December 1680 when it moved too close to the
+Sun to be observed. It reappeared two weeks later moving away from the
+Sun along almost the same path along which it had approached. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newton.html" onclick="javascript:win1('../Mathematicians/Newton',550,800); return false;">Newton</a>
+found good agreement between its orbit and a parabola. He uses the
+orbit of this comet, and comets in general, to support his inverse
+square law of gravitation in the <i>Principia</i>.<br>
+<br>
+<a name="7">You can see </a><a href="javascript:win0('Diagrams/Newton_Comet.jpeg','The%20comet%20of%201680',539,256,0,0,'')">a diagram</a> of the orbit of the comet of 1680 from the <i>Principia</i>.
+</p><p align="justify">
+<a name="49"></a>In the <i>Principia</i> <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newton.html" onclick="javascript:win1('../Mathematicians/Newton',550,800); return false;">Newton</a> also deduced <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Kepler.html" onclick="javascript:win1('../Mathematicians/Kepler',550,800); return false;">Kepler</a>'s third law. He looked briefly (in Propositions 65 and 66) at the problem of three bodies. However <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newton.html" onclick="javascript:win1('../Mathematicians/Newton',550,800); return false;">Newton</a> later said that an exact solution for three bodies
+</p><blockquote><p align="justify">
+<i>exceeds, if I am not mistaken, the force of any human mind. </i>
+</p></blockquote><p align="justify">
+<a name="53"></a>It is important at this stage to examine the problems which now arose. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newton.html" onclick="javascript:win1('../Mathematicians/Newton',550,800); return false;">Newton</a>
+had completely solved the theoretical problem of the motion of two
+point masses under an inverse square law of attraction. For more than
+two point masses only approximations to the motion of the bodies could
+be found and this line of research led to a large effort by
+mathematicians to develop methods to attack this three body problem.
+However, the problem of the actual motion of the planets and moons in
+the solar system was highly complicated by other considerations. </p><p align="justify">
+Even if the Earth - Moon system were considered as a two body problem, theoretically solved in the <i>Principia</i>,
+the orbits would not be simple ellipses. Neither the Earth nor the Moon
+is a perfect sphere so does not behave as a point mass. This was to
+lead to the development of mechanics of rigid bodies, but even this
+would not give a completely accurate picture of the two body problem
+since tidal forces mean that neither the Earth nor Moon is rigid.
+</p><p align="justify">
+<a name="57"></a>The observational data used by <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newton.html" onclick="javascript:win1('../Mathematicians/Newton',550,800); return false;">Newton</a> in the <i>Principia</i> was provided by the Royal Greenwich Observatory. However modern scholars such as Richard Westfall claim that <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newton.html" onclick="javascript:win1('../Mathematicians/Newton',550,800); return false;">Newton</a>
+sometimes adjusted his calculations to fit his theories. Certainly the
+observational evidence could not be used to prove the inverse square
+law of gravitation. Many problems relating observation to theory
+existed at the time of the <i>Principia</i> and more would arise.
+</p><p align="justify">
+<a name="59"></a><a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Halley.html" onclick="javascript:win1('../Mathematicians/Halley',550,800); return false;">Halley</a> used <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newton.html" onclick="javascript:win1('../Mathematicians/Newton',550,800); return false;">Newton</a>'s
+method and found almost parabolic orbits for a number of comets. When
+he computed the orbits for three comets which had appeared in 1537,
+1607 and one <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Halley.html" onclick="javascript:win1('../Mathematicians/Halley',550,800); return false;">Halley</a> observed himself in 1682, he found that the characteristics of the orbits were almost identical. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Halley.html" onclick="javascript:win1('../Mathematicians/Halley',550,800); return false;">Halley</a>
+deduced they were the same comet and later was able to identify it with
+one which had appeared in 1456 and 1378. He computed an elliptical
+orbit for the comet and he noticed that Jupiter and Saturn were
+perturbing the orbit slightly between each return of the comet. Taking
+the perturbations into account <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Halley.html" onclick="javascript:win1('../Mathematicians/Halley',550,800); return false;">Halley</a>
+predicted the comet would return and reach perihelion (the point
+nearest the Sun) on 13 April 1759. He gave an error of one month on
+either side of this date. The comet was actually first seen again in
+December 1758 reaching perihelion on 12 March 1759.
+</p><p align="justify">
+<a name="61"></a>In 1713 a second edition of the <i>Principia</i>, edited by <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Cotes.html" onclick="javascript:win1('../Mathematicians/Cotes',550,800); return false;">Roger Cotes</a>, appeared. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Cotes.html" onclick="javascript:win1('../Mathematicians/Cotes',550,800); return false;">Cotes</a> wrote a preface defending the theory of gravitation given in the <i>Principia</i>. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Cotes.html" onclick="javascript:win1('../Mathematicians/Cotes',550,800); return false;">Cotes</a>
+was himself to provide the next mathematical steps by finding the
+derivatives of the trigonometric functions, results published after his
+death.
+</p><p align="justify">
+<a name="63"></a><a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Euler.html" onclick="javascript:win1('../Mathematicians/Euler',550,800); return false;">Euler</a> developed methods of integrating linear differential equations in 1739 and made known <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Cotes.html" onclick="javascript:win1('../Mathematicians/Cotes',550,800); return false;">Cotes</a>'
+work on trigonometric functions. He drew up lunar tables in 1744,
+clearly already studying gravitational attraction in the Earth, Moon,
+Sun system. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Clairaut.html" onclick="javascript:win1('../Mathematicians/Clairaut',550,800); return false;">Clairaut</a> and <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/D%27Alembert.html" onclick="javascript:win1('../Mathematicians/D\'Alembert',550,800); return false;">d'Alembert</a> were also studying perturbations of the Moon and, in 1747, <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Clairaut.html" onclick="javascript:win1('../Mathematicians/Clairaut',550,800); return false;">Clairaut</a> proposed adding a 1/<i>r</i><sup>4</sup>
+term to the gravitational law to explain the observed motion of the
+perihelion, the point in the orbit of the Moon where it is closest to
+the Earth. </p><p align="justify">
+<a name="65"></a>However by the end of 1748 <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Clairaut.html" onclick="javascript:win1('../Mathematicians/Clairaut',550,800); return false;">Clairaut</a>
+had discovered that a more accurate application of the inverse square
+law came close to explaining the orbit. He published his version in
+1752 and, two years later, <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/D%27Alembert.html" onclick="javascript:win1('../Mathematicians/D\'Alembert',550,800); return false;">d'Alembert</a> published his calculations going to more terms in his approximation than <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Clairaut.html" onclick="javascript:win1('../Mathematicians/Clairaut',550,800); return false;">Clairaut</a>. In fact this work was of importance in having <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newton.html" onclick="javascript:win1('../Mathematicians/Newton',550,800); return false;">Newton</a>'s inverse square law of force accepted in Continental Europe.
+</p><p align="justify">
+<a name="67"></a>The Earth's axis of rotation precesses, that is the
+direction of the axis of rotation itself rotates in a circle with a
+period of about 26000 years. Precession is caused by the gravitational
+attraction of the Sun on the equatorial bulge of the Earth, the bulge
+being predicted by <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newton.html" onclick="javascript:win1('../Mathematicians/Newton',550,800); return false;">Newton</a>. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Cassini.html" onclick="javascript:win1('../Mathematicians/Cassini',550,800); return false;">Cassini</a>
+made a measurement of an arc of longitude in 1712 but obtained a result
+which wrongly suggested that the Earth was elongated at the poles. In
+1736 <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Maupertuis.html" onclick="javascript:win1('../Mathematicians/Maupertuis',550,800); return false;">Maupertuis</a> obtained the correct result verifying <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newton.html" onclick="javascript:win1('../Mathematicians/Newton',550,800); return false;">Newton</a>'s
+predictions. However, this illustrates the problems encountered by
+mathematicians at this time with basic data about bodies in the solar
+system, even the Earth, being highly inaccurate.
+</p><p align="justify">
+<a name="69"></a>There is a small periodic effect called <i>nutation</i>
+superimposed on precession caused by the motion of the perihelion of
+the Moon. This superimposed effect has a period of 18.6 years and was
+first observed by Bradley in 1730 but not announced until 18 years
+later when he had observed the full cycle. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/D%27Alembert.html" onclick="javascript:win1('../Mathematicians/D\'Alembert',550,800); return false;">D'Alembert</a> quickly showed that Bradley's observed period was deducible from the inverse square law and <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Euler.html" onclick="javascript:win1('../Mathematicians/Euler',550,800); return false;">Euler</a> further clarified this with further work on the mechanics of rigid bodies during the 1750's.
+</p><p align="justify">
+<a name="71"></a>The problem of the orbits of Jupiter and Saturn had troubled astronomers and mathematicians from <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Kepler.html" onclick="javascript:win1('../Mathematicians/Kepler',550,800); return false;">Kepler</a>'s first theory of elliptical orbits. The Paris <a href="http://www-history.mcs.st-and.ac.uk/Societies/Paris.html"><font color="brown">Académie des Sciences</font></a> offered Prizes for work on this topic in 1748, 1750 and 1752. In 1748 <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Euler.html" onclick="javascript:win1('../Mathematicians/Euler',550,800); return false;">Euler</a>'s
+studies of the perturbation of Saturn's orbit won him the Prize. His
+work for the 1752 Prize, however, contains many mathematical errors and
+was not published until 17 years later. It did contain significant
+ideas, however, which were independently discovered since <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Euler.html" onclick="javascript:win1('../Mathematicians/Euler',550,800); return false;">Euler</a>'s work was not known.
+</p><p align="justify">
+<a name="s72"></a><a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Lagrange.html" onclick="javascript:win1('../Mathematicians/Lagrange',550,800); return false;">Lagrange</a> won the <a href="http://www-history.mcs.st-and.ac.uk/Societies/Paris.html"><font color="brown">Académie des Sciences</font></a>
+Prize in 1764 for a work on the libration of the Moon. This is a
+periodic movement in the axis the Moon pointing towards the Earth which
+allows, over a period of time, more than 50% of the surface of the Moon
+to be seen. He also won the <a href="http://www-history.mcs.st-and.ac.uk/Societies/Paris.html"><font color="brown">Académie des Sciences</font></a>
+of 1766 for work on the orbits of the moons of Jupiter where he gave a
+mathematical analysis to explain an observed inequality in the sequence
+of eclipses of the moons.
+</p><p align="justify">
+<a name="75"></a><a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Euler.html" onclick="javascript:win1('../Mathematicians/Euler',550,800); return false;">Euler</a>,
+from 1760 onwards, seems to be the first to study the general problem
+of three bodies under mutual gravitation (rather than looking at bodies
+in the solar system) although at first he only considered the
+restricted three body problem when one of the bodies has negligible
+mass. When one body has negligible mass it is assumed that the motions
+of the other two can be solved as a two body problem, the body of
+negligible mass having no effect on the other two. Then the problem is
+to determine the motion of the third body attracted to the other two
+bodies which orbit each other. Even in this form the problem does not
+lead to exact solutions. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Euler.html" onclick="javascript:win1('../Mathematicians/Euler',550,800); return false;">Euler</a>, however, found a particular solution with all three bodies in a straight line.
+</p><p align="justify">
+<a name="77"></a>The first comet to have an elliptical orbit calculated
+which was far from a parabola was observed by Messier in 1769. The
+elliptical orbit was computed by <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Lexell.html" onclick="javascript:win1('../Mathematicians/Lexell',550,800); return false;">Lexell</a>
+who correctly realised that the small elliptical orbit had been
+produced by perturbations by Jupiter. The comet made no reappearance
+and again <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Lexell.html" onclick="javascript:win1('../Mathematicians/Lexell',550,800); return false;">Lexell</a> correctly deduced that Jupiter had changed the orbit so much that it was thrown far away from the Sun.
+</p><p align="justify">
+<a name="79">The </a><a href="http://www-history.mcs.st-and.ac.uk/Societies/Paris.html"><font color="brown">Académie des Sciences</font></a> Prize of 1772 for work on the orbit of the Moon was jointly won by <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Lagrange.html">Lagrange</a> and <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Euler.html">Euler</a>. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Lagrange.html">Lagrange</a> submitted <i>Essai sur le problème des trois corps </i>  in which he showed that <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Euler.html">Euler</a>'s
+restricted three body solution held for the general three body problem.
+He also found another solution where the three bodies were at the
+vertices of an equilateral triangle. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Lagrange.html">Lagrange</a>
+considers his solutions do not apply to the solar system but we now
+know the both the Earth and Jupiter have asteroids sharing their orbits
+in the equilateral triangle solution configuration discovered by
+Lagrange. For Jupiter these bodies are called Trojan planets, the first
+to be discovered being Achilles in 1908. The Trojan planets move 60<img src="Orbits_files/degrees.gif" alt="degrees"> in front and 60<img src="Orbits_files/degrees.gif" alt="degrees"> behind Jupiter at what are now called the Lagrangian points.<br>
+<br>
+<a name="81">You can see the </a><a href="javascript:win0('Diagrams/Asteroids.gif','The%20positions%20of%206000%20known%20asteroids',475,480,0,0,'')">known asteroids</a>.
+This picture shows the positions of nearly 6000 asteroids whose orbits
+are now known. The effect of the Lagrangian points is readily seen.
+Jupiter is the outermost planet depicted in the picture.
+</p><p align="justify">
+<a name="83">However all this work on the orbits of bodies in the solar
+system failed to keep pace with observations which always seemed one
+step ahead, giving further and yet further problems for the theorists
+to explain. </a><a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Laplace.html">Laplace</a>,
+from 1774 onwards, became an important contributor to the attempt of
+the theoreticians to explain the observations of the observers. </p><p align="justify">
+<a name="85"></a><a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Lagrange.html">Lagrange</a>
+introduced the method of variation of the arbitrary constants in a
+paper in 1776 stating that the method was of interest in celestial
+mechanics and, in special cases, had been already been used by <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Euler.html">Euler</a>, <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Laplace.html">Laplace</a> and himself.  <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Lagrange.html">Lagrange</a>
+published further major papers in 1783 and 1784 on the theory of
+perturbations of orbits using methods of variations of the arbitrary
+constants and, in 1785, applied his theory to the orbits of Jupiter and
+Saturn.
+</p><p align="justify">
+<a name="87">An important development occurred on 13 March 1781 when the astronomer William Herschel (father of </a><a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Herschel.html">John Herschel</a>) observing in his private observatory in Bath, England found
+</p><blockquote><p align="justify">
+<a name="s89"><i>...  a curious either nebulous star or perhaps a comet.</i>
+</a></p></blockquote><p align="justify">
+<a name="s91">Almost immediately it was realised that it was a planet
+and within a year of its discovery it was shown to have an almost
+circular orbit. The name Uranus was eventually adopted although William
+Herschel himself proposed Georgium Sidus (perhaps in the hope of more
+funds from King George!) while in France it was known as Herschel until
+the middle of the following century.
+</a></p><p align="justify">
+<a name="93"></a><a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Laplace.html">Laplace</a> read a memoir to the <a href="http://www-history.mcs.st-and.ac.uk/Societies/Paris.html"><font color="brown">Académie des Sciences</font></a>
+on 23 November 1785 in which he gave a theoretical explanation of all
+the remaining major discrepancies between theory and observation of all
+the planets and their moons excluding Uranus. He also addressed the
+question of the stability of the solar system for the first time. This
+work was to culminate in the publication of <i>Mécanique céleste </i>  (1799) in which, among many other important results, he claimed to prove the stability of the solar system.
+</p><p align="justify">
+<a name="95">The remaining observations not explained by theory at the end of the 18 Century concerned the motion of the Moon. </a><a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Laplace.html">Laplace</a>'s work of 1787, that of <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Adams.html">Adams</a> of 1854 and later <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Delaunay.html">Delaunay</a>'s
+work described below eventually provided solutions. Observations of
+Uranus in the early years of the 19th Century showed there were
+problems with its orbit and by 1830 Uranus had departed by 15" from the
+best fitting ellipse.
+</p><p align="justify">
+<a name="s97">The next body to be discovered in the solar system was
+the minor planet Ceres, discovered in 1801. In 1766 J D Titus and in
+1772 J E Bode had noted that </a></p><blockquote><p align="justify">
+<a name="s97">      (1+4)/10,   (3+4)/10,   (6+4)/10,   (12+4)/10,  (24+4)/10,   (48+4)/10,   (96+4)/10
+</a></p></blockquote><p align="justify">
+<a name="s102">gave the distances of the 6 known planets from the Sun
+(taking the Earth's distance to be 1) except there was no planet at
+distance 2.8. The discovery of Uranus at distance 19.2 was close to the
+next term of the sequence 19.6. </a></p><p align="justify">
+<a name="104">A search was made for a planet at distance 2.8 and on 1
+January 1801 G Piazzi discovered such a body. On 11 February Piazzi
+fell ill and ended his observations. The new planet, unobserved by
+other astronomers, passed behind the Sun and was lost. However </a><a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Gauss.html">Gauss</a> in a brilliant piece of work was able to compute an orbit from the small number of observations. In fact <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Gauss.html">Gauss</a>'
+s method requires only 3 observations and is still essentially that
+used today in calculating orbits. Ceres, so named by Piazzi, was found
+to be where Gauss predicted by Olbers. Its distance from the Sun fitted
+exactly the 2.8 prediction of the Titus-Bode law.
+</p><p align="justify">
+<a name="106">Johann Encke, a student of Gauss, computed (using </a><a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Gauss.html">Gauss</a>'s
+method) an elliptical orbit for the comet of 1818. It had the shortest
+known period of 3.3 years. The period showed a periodic decrease which
+Encke could not explain by perturbations by other planets.
+</p><p align="justify">
+<a name="s108">Work on the general three body problem during the 19th
+Century had begun to take two distinct lines. One was the developing of
+highly complicated methods of approximating the motions of the bodies.
+The other line was to produce a sophisticated theory to transform and
+integrate the equations of motion. The first of these lines was
+celestial mechanics while the second was rational or analytic
+mechanics. Both the theory of perturbations and the theory of
+variations of the arbitrary constants were of major mathematical
+significance as well as contributing greatly to the understanding of
+planetary orbits.
+</a></p><p align="justify">
+<a name="110">Papers published by </a><a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Hamilton.html">Hamilton</a> in 1834 and 1835 made major contributions to the mechanics of orbiting bodies. as did the significant paper published by <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Jacobi.html">Jacobi</a>
+in 1843 where he reduced the problem of two actual planets orbiting a
+sun to the motion of two theoretical point masses. As a first
+approximation the theoretical point masses orbited the centre of
+gravity of the original system in ellipses. He then used a method,
+first discovered by <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Lagrange.html">Lagrange</a>, to compute the perturbations. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Bertrand.html">Bertrand</a> extended <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Jacobi.html">Jacobi</a>'s work in 1852.
+</p><p align="justify">
+<a name="112">In 1836 </a><a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Liouville.html">Liouville</a>
+studied planetary theory, the three body problem and the motion of the
+minor planets Ceres and Vesta. Many mathematicians around this period
+devoted much of their time to these problems. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Liouville.html">Liouville</a>
+made a number of very important mathematical discoveries while working
+on the theory of perturbations including the discovery of <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Liouville.html">Liouville</a>'s theorem "when a bounded domain in phase space evolves according to Hamilton's equations its volume is conserved".
+</p><p align="justify">
+<a name="114">By around 1840 irregularities in the orbit of Uranus
+prompted many scientists to seek reasons them. Alexis Bouvard (a
+collector of planetary data) proposed that a planet might explain the
+irregularities and he wrote to the English Astronomer Royal </a><a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Airy.html">Airy</a> proposing this idea. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Bessel.html">Bessel</a> also proposed this solution to the problem but died before completing his calculations. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Delaunay.html">Delaunay</a>, famed for his work on the orbit of the Moon, investigated the perturbations in a paper of 1842. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Arago.html">Arago</a> urged <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Le_Verrier.html">Le Verrier</a> to work on the problem and on 1 June 1846 <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Le_Verrier.html">Le Verrier</a>
+showed that the irregularities could be explained by an unknown planet
+and he determined the coordinates at which the planet would be found.
+The astronomer Galle in Berlin found the new planet on 26 September
+remarkably close to the position predicted by <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Le_Verrier.html">Le Verrier</a>. The observations were confirmed on 29 September 1846 at the Paris observatory.
+</p><p align="justify">
+<a name="116">This was a remarkable achievement for </a><a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newton.html">Newton</a>'s theory of gravitation and of celestial mechanics. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Le_Verrier.html">Le Verrier</a>'s
+personal triumph however was somewhat diminished when, on 15 October, a
+letter was published from the English astronomer Challis claiming that
+John Couch <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Adams.html">Adams</a> of Cambridge University had made similar calculations to those of <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Le_Verrier.html">Le Verrier</a> which he had completed in September 1845. His predicted position for the new planet had been almost as accurate as <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Le_Verrier.html">Le Verrier</a>'s but the English astronomers had been much less industrious in their search. John <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Herschel.html">Herschel</a> and <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Airy.html">Airy</a> also supported <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Adams.html">Adams</a>'
+claim. In fact Challis had, after a long delay, begun to search for the
+new planet on 29 July 1846. He observed it on 4 August but did not
+compare his observations with those of the previous night so only
+realised he had observed the planet after its discovery in Berlin about
+7 weeks later. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Arago.html">Arago</a> was unimpressed by <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Adams.html">Adams</a>' priority claims
+</p><blockquote><p align="justify">
+<a name="s118"><i>Mr Adams does not have the right to appear in the
+history of the discovery of the planet Le Verrier either with a
+detailed citation or even with the faintest allusion. In the eyes of
+all impartial men, this discovery will remain one of the most
+magnificent triumphs of theoretical astronomy, one of the glories of
+the Académie and one of the most beautiful distinctions of our country.
+</i>
+</a></p></blockquote><p align="justify">
+<a name="120">The success of the mathematical analysis of both </a><a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Le_Verrier.html">Le Verrier</a> and <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Adams.html">Adams</a>
+was somewhat fortunate. The orbits which they predicted were different
+and both not particularly good except around the 1840's. An argument
+over the naming of the new planet was, however, unfortunate. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Arago.html">Arago</a> was given the task of selecting a name by <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Le_Verrier.html">Le Verrier</a> and <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Le_Verrier.html">Le Verrier</a>
+made his wishes known in an unsubtle way by writing a paper on
+Herschel's planet, insisting that Uranus should be named after its
+discoverer. Encke, <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Gauss.html">Gauss</a>'s student referred to above, suggested Neptune as a name. However <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Arago.html">Arago</a> said
+</p><blockquote><p align="justify">
+<a name="s122"><i>I commit myself never to call the new planet by any
+other name than Le Verrier. In this way, I think I will give an
+impeachable token of my love for science and follow the inspiration of
+a legitimate national sentiment. </i>
+</a></p></blockquote><p align="justify">
+<a name="124">The argument over a name led to </a><a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Le_Verrier.html">Le Verrier</a> resigning from the Bureau des Longitude and eventually <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Arago.html">Arago</a> lost his battle over the name which became accepted as Neptune.
+</p><p align="justify">
+<a name="126"></a><a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Delaunay.html">Delaunay</a>,
+mentioned above for his work on the perturbations of Uranus, worked for
+20 years on lunar theory. He treated it as a restricted three body
+problem and used transformations to produce infinite series solutions
+for the longitude, latitude and parallax for the Moon. The beginnings
+of his theory was published in 1847 and he had refined the theory until
+it was published in 2 volumes in 1860 and 1867 and was extremely
+accurate, its only drawback being the slow convergence of the infinite
+series. </p><p align="justify">
+<a name="128">Delaunay detected discrepancies between the observed motion of the Moon and his predictions. </a><a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Le_Verrier.html">Le Verrier</a> claimed that <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Delaunay.html">Delaunay</a>'s methods were in error but <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Delaunay.html">Delaunay</a> claimed that the discrepancies were due to unknown factors. In 1865 <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Delaunay.html">Delaunay</a>
+suggested that the discrepancies arose from a slowing of the Earth's
+rotation due to tidal friction, an explanation which is today believed
+to be correct.
+</p><p align="justify">
+<a name="130"></a><a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Le_Verrier.html">Le Verrier</a>
+had published an account of his theory of Mercury in 1859. He pointed
+out that there was a discrepancy of 38" per century between the
+predicted motion of the perihelion (the point of closest approach of
+the planet to the Sun) which was 527" per century and the observed
+value of 565" per century. In fact the actual discrepancy was 43" per
+century and this was pointed out by later by Simon <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newcomb.html">Newcomb</a>. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Le_Verrier.html">Le Verrier</a>
+was convinced that a planet or ring of material lay inside the orbit of
+Mercury but being close to the Sun had not been observed. </p><p align="justify">
+<a name="132"></a><a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Le_Verrier.html">Le Verrier</a>'s search proved in vain and by 1896 Tisserand had concluded that no such perturbing body existed. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newcomb.html">Newcomb</a>
+explained the discrepancy in the motion of the perihelion by assuming a
+minute departure from an inverse square law of gravitation. This was
+the first time that <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newton.html">Newton</a>'s
+theory had been questioned for a long time. In fact this discrepancy in
+the motion of the perihelion of Mercury was to provide the proof that
+Newtonian theory had to give way to <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Einstein.html">Einstein</a>'s
+theory of relativity. More details relating to the advance of Mercury's
+perihelion are contained in the article on general relativity.
+</p><p align="justify">
+<a name="134"></a><a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Hill.html">G W Hill</a>
+published an account of his lunar theory in 1878. Earlier approaches
+started with an elliptic orbit of the Moon round the Earth, assuming
+the Sun had no effect, then perturbing the orbit to take account of the
+gravitation of the Sun. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Hill.html">Hill</a>,
+on the other hand, started with circular orbits for the Sun and Moon
+about the Earth and went on to examine the perturbations caused by
+assuming elliptic orbits.
+</p><p align="justify">
+<a name="136">The final major step forward in the study of the three body problem which we shall consider was that of </a><a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Poincare.html">Poincaré</a>. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Bruns.html">Bruns</a>
+proved in 1887 that apart from the 10 classical integrals, 6 for the
+centre of gravity, 3 for angular momentum and one for energy, no others
+could exist. In 1889 <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Poincare.html">Poincaré</a> proved that for the restricted three body problem no integrals exist apart from the Jacobian. In 1890 <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Poincare.html">Poincaré</a>
+proved his famous recurrence theorem, namely that in any small region
+of phase space trajectories exist which pass through the region
+infinitely often. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Poincare.html">Poincaré</a> published 3 volumes of <i>Les méthods nouvelle de la mécanique celeste </i>
+between 1892 and 1899. He discussed convergence and uniform convergence
+of the series solutions discussed by earlier mathematicians and proved
+them not to be uniformly convergent. The stability proofs of <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Lagrange.html">Lagrange</a> and <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Laplace.html">Laplace</a> became inconclusive after this result. 
+</p><p align="justify">
+<a name="138"></a><a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Poincare.html">Poincaré</a> introduced further topological methods in 1912 for the theory of stability of orbits in the three body problem. It fact <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Poincare.html">Poincaré</a>
+essentially invented topology in his attempt to answer stability
+questions in the three body problem. He conjectured that there are
+infinitely many periodic solutions of the restricted problem, the
+conjecture being later proved by <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Birkhoff.html">Birkhoff</a>. The stability of the orbits in the three body problem was also investigated by <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Levi-Civita.html">Levi-Civita</a>, <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Birkhoff.html">Birkhoff</a> and others.
+</p><p align="justify">
+<strong><a href="http://www-history.mcs.st-and.ac.uk/HistTopics/References/Orbits.html" target="_blank">References</a> (34 books/articles)</strong>
+
+</p><p>
+</p><p><font color="purple"><b>Article by:</b> <i>J J O'Connor</i> and <i>E F Robertson</i></font><br>
+</p><hr><center>
+<table bgcolor="#ccccff" border="0" cellpadding="6" cellspacing="0">
+<tbody><tr>
+<td><a href="http://www-history.mcs.st-and.ac.uk/Indexes/HistoryTopics.html">History&nbsp;Topics&nbsp;Index</a><br>
+</td><td align="right"><a href="http://www-history.mcs.st-and.ac.uk/Indexes/Astronomy.html">Mathematical Astronomy index</a>
+</td></tr><tr>
+<td><a href="http://www-history.mcs.st-and.ac.uk/index.html">Main&nbsp;index</a>   
+</td><td align="right"><a href="http://www-history.mcs.st-and.ac.uk/BiogIndex.html">Biographies&nbsp;Index</a>
+<br></td></tr><tr>
+<td><a href="http://www-history.mcs.st-and.ac.uk/Curves/Curves.html">Famous&nbsp;curves&nbsp;index</a>
+</td><td align="right"><a href="http://www-history.mcs.st-and.ac.uk/BirthplaceMaps/MapIndex.html">Birthplace&nbsp;Maps</a>
+<br></td></tr><tr>
+<td><a href="http://www-history.mcs.st-and.ac.uk/Chronology/index.html">Chronology&nbsp;</a>
+</td><td align="right"><a href="http://www-history.mcs.st-and.ac.uk/Timelines/index.html">Time&nbsp;lines</a>
+<br></td></tr><tr>
+<td><a href="http://www-history.mcs.st-and.ac.uk/Day_files/Now.html">Mathematicians&nbsp;of&nbsp;the&nbsp;day</a>   
+</td><td align="right"><a href="http://www-history.mcs.st-and.ac.uk/Day_files/Year.html">Anniversaries&nbsp;for&nbsp;the&nbsp;year</a>
+<br></td></tr><tr>
+<td><a href="http://www-history.mcs.st-and.ac.uk/Search/historysearch.html">Search&nbsp;Form</a>   
+</td><td align="right"><a href="http://www-history.mcs.st-and.ac.uk/Societies/index.html">&nbsp;Societies,&nbsp;honours, etc</a>
+<br>
+</td></tr></tbody></table>
+<hr></center>
+JOC/EFR February 1996
+<p>
+<font color="red" size="-1">
+The URL of this page is:<br>
+<font color="blue">
+http://www-history.mcs.st-andrews.ac.uk/HistTopics/Orbits.html
+</font>
+</font></p></body></html>

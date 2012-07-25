@@ -2,22 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>http://www.gorgnegre.com/linux/tree-command-as-a-sitemap-generator.html</loc>
+        <lastmod>2012-07-22</lastmod>
+    </url>
+    
+    <url>
         <loc>http://www.gorgnegre.com/linux/using-emacs-orgmode-to-blog-with-jekyll.html</loc>
         <lastmod>2012-07-17</lastmod>
     </url>
     
     <url>
         <loc>http://www.gorgnegre.com</loc>
-        <lastmod>2012-07-22</lastmod>
+        <lastmod>2012-07-25</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>http://www.gorgnegre.com/about.html</loc>
+        <loc>http://www.gorgnegre.com/files/pages/about.html</loc>
         <lastmod>2012-08-01</lastmod>
     </url>
     <url>
-        <loc>http://www.gorgnegre.com/archive.html</loc>
-        <lastmod>2012-07-22</lastmod>
+        <loc>http://www.gorgnegre.com/files/pages/archive.html</loc>
+        <lastmod>2012-07-25</lastmod>
         <changefreq>weekly</changefreq>
     </url>
 </urlset>
