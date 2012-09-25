@@ -4,13 +4,304 @@
     <title>Gorg Negre: Astro-Turisme Rural</title>
     <link href="http://www.gorgnegre.com/atom.xml" rel="self"/>
     <link href="http://www.gorgnegre.com/"/>
-    <updated>2012-07-25T05:33:36+02:00</updated>
+    <updated>2012-09-26T00:06:55+02:00</updated>
     <id>http://www.gorgnegre.com/</id>
     <author>
         <name>Gorg Negre: Astro-Turisme Rural</name>
         <email>info@gorgnegre.cat</email>
     </author>
  
+    
+    <entry>
+        <title>Public Encryption Key</title>
+        <link href="http://www.gorgnegre.com/linux/public-encryption-key.html"/>
+        <updated>2012-08-19T00:00:00+02:00</updated>
+        <id>http://www.gorgnegre.com/linux/public-encryption-key</id>
+        <content type="html">&lt;p&gt;Our public encryption key can be used with common encryption tools
+such as &lt;code&gt;PGP&lt;/code&gt; and &lt;code&gt;GnuPG&lt;/code&gt; to encrypt messages for
+us if you have need of sending us sensitive information.  You can also
+use our public key to check the integrity and true authorship of the
+(signed) emails we send to you.  This public key is provided below and
+can be directly downloaded &lt;a
+href=&quot;/files/gorgnegre-pgp-pubkey.txt&quot;&gt;here&lt;/a&gt; or from public
+keyservers such as &lt;a
+href=&quot;http://pgp.mit.edu:11371/pks/lookup?op=vindex&amp;search=0x463D2E8598B633FC&quot;&gt;pgp.mit.edu/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Key ID: &lt;code&gt;98B633FC&lt;/code&gt;
+&lt;/li&gt;
+&lt;li&gt;Fingerprint: &lt;code&gt;248D B1B7 A38A C39E 41AA F304 463D 2E85 98B6 33FC&lt;/code&gt;
+&lt;/li&gt;
+&lt;li&gt;Expires: 2015-01-01
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+&lt;pre class=&quot;example&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text&quot;&gt;-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+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
+Tm5Jt23IHx2wVS1iTuV5vyMf/9mJAT4EEwECACgFAk7vj2ICGwMFCQW08Z8GCwkI
+BwMCBhUIAgkKCwQWAgMBAh4BAheAAAoJEEY9LoWYtjP8QDYIAKu+34AgtmS70MX5
+uO74tKrRnwawYumXr+ief+rsMgLxwOB9qB8nFMBib9i+Q5xI5bh6xlLkJY7YaH9K
+pqrSiFf+KQuSef+HDDnzg2QPohwFc5t5WZa+QJ3yn4t/Jpl4AXn9cP7bUrA96fqc
+ubYEqH04S+0AfezKJ+M2+wqHBQZhmdODcCMKRRp7xh/OcKbj9GTrdjTV1yxdU45V
+sqhcI2rssa0m4ht70pkkdE57u+6C8Y3QP5peLpJ10mIDocb3QOI7oYcFGhI9ZYR/
+hpne2maQ8C0z2sYwmaKQzWLvuTvbGF3jhTZL+XIHI7mHAvyVFCifgTD4ZLKYQTqB
+ybtgFY7R20bbRAEQAAEBAAAAAAAAAAAAAAAA/9j/4AAQSkZJRgABAQAAAQABAAD/
+2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwc
+KDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAB4
+AHgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QA
+tRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS
+0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZn
+aGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLD
+xMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEB
+AQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEE
+BSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2
+Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOU
+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
+sUVGqnWQlQ==
+=SWI1
+-----END PGP PUBLIC KEY BLOCK-----
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;/pre&gt;
+
+
+&lt;p&gt;
+If you need some help getting OpenPGP-compliant encryption software set
+up, and learning how to use it, these two links lead to complementary
+resources: one is a quick set of instructions, and the other is a IT
+security article that gives a beginner's overview of GnuPG:
+&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://arc.apotheon.org/cheats/gpg_quick.html&quot;&gt;GnuPG Quickstart/Howto&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blogs.techrepublic.com.com/security/?p=405&quot;&gt;Using OpenPGP on Unix/Linux systems with GnuPG&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+&lt;p&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;!-- hhmts start --&gt; &lt;!-- hhmts end --&gt;&lt;/p&gt;
+</content>
+    </entry>
     
     <entry>
         <title>Tree Command as a Sitemap Generator</title>
@@ -62,7 +353,7 @@ sitemap&lt;/a&gt;. You can achieve better looks by playing a bit with CSS.
                    &lt;code&gt;files&lt;/code&gt; and &lt;code&gt;tasks&lt;/code&gt; subdirectories in my webserver
                    rootdir.
 &lt;/dd&gt;
-&lt;dt&gt;&lt;code&gt;-C&lt;/code&gt;&lt;/dt&gt;&lt;dd&gt;Colorise output.  Needed if you wish to use colors via CCS
+&lt;dt&gt;&lt;code&gt;-C&lt;/code&gt;&lt;/dt&gt;&lt;dd&gt;Colourise output.  Needed if you wish to use colours via CCS
             stylesheet.
 &lt;/dd&gt;
 &lt;dt&gt;&lt;code&gt;-H&lt;/code&gt; &lt;i&gt;baseHREF&lt;/i&gt;&lt;/dt&gt;&lt;dd&gt;turn on HTML output. &lt;i&gt;baseHREF&lt;/i&gt; gives the base
@@ -81,7 +372,7 @@ sitemap&lt;/a&gt;. You can achieve better looks by playing a bit with CSS.
 
 
 
-&lt;pre class=&quot;example&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;sh&quot;&gt; Sitemap &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;www.gorgnegre.com
+&lt;pre class=&quot;example&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text&quot;&gt; Sitemap for www.gorgnegre.com
 
    http://www.gorgnegre.com
    ├── linux/
@@ -96,6 +387,9 @@ sitemap&lt;/a&gt;. You can achieve better looks by playing a bit with CSS.
 
 &lt;/pre&gt;
 
+
+&lt;p&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;!-- hhmts start --&gt; &lt;!-- hhmts end --&gt;&lt;/p&gt;
 </content>
     </entry>
     
@@ -161,6 +455,8 @@ under version control using &lt;a href=&quot;http://git-scm.com/&quot;&gt;Git&lt
 &lt;li&gt;The excellent Juan Reyero's &lt;a href=&quot;http://juanreyero.com/open/org-jekyll/&quot;&gt;Org-Jekyll site&lt;/a&gt;. [Not yet implemented here.]
 &lt;/li&gt;
 &lt;li&gt;The convenient Metajack's &lt;a href=&quot;http://metajack.im/2009/01/02/manage-jekyll-from-emacs/&quot;&gt;Emacs-Jekyll hack&lt;/a&gt;.
+&lt;/li&gt;
+&lt;li&gt;Justin Lilly's succint &lt;a href=&quot;http://justinlilly.com/emacs/orgmode_static_site_generator.html&quot;&gt;org publishing page&lt;/a&gt;.
 &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -372,7 +668,8 @@ Things to note:
 &lt;h3 id=&quot;sec-5&quot;&gt;YAML Headers in Org Files&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-5&quot;&gt;
 
-
+&lt;p&gt;#yaml-headers
+&lt;/p&gt;
 &lt;p&gt;
 As we mentioned, Jekyll parses files with YAML headers and uses the
 variables therein specified through the templates held in the &lt;code&gt;_layouts&lt;/code&gt;
@@ -409,21 +706,21 @@ the first lines in our org file will now look like:
 &lt;/p&gt;
 
 
-&lt;pre class=&quot;example&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt;&lt;span class=&quot;c1&quot;&gt;#+BEGIN_HTML&lt;/span&gt;
-&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;post&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Blogging with Emacs Org-mode and Jekyll&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;excerpt&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;How to set up the combo emacs org-mode &amp;amp;amp; jekyll to publish a static website/blog.&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;categories&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
+&lt;pre class=&quot;example&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;yaml&quot;&gt; &lt;span class=&quot;c1&quot;&gt;#+BEGIN_HTML&lt;/span&gt;
+ &lt;span class=&quot;l-Scalar-Plain&quot;&gt;---&lt;/span&gt;
+ &lt;span class=&quot;l-Scalar-Plain&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;post&lt;/span&gt;
+ &lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Blogging with Emacs Org-mode and Jekyll&lt;/span&gt;
+ &lt;span class=&quot;l-Scalar-Plain&quot;&gt;excerpt&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;How to set up the combo emacs org-mode &amp;amp;amp; jekyll to publish a static website/blog.&lt;/span&gt;
+ &lt;span class=&quot;l-Scalar-Plain&quot;&gt;categories&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
   &lt;span class=&quot;p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;linux&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
+ &lt;span class=&quot;l-Scalar-Plain&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
   &lt;span class=&quot;p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;emacs&lt;/span&gt;
   &lt;span class=&quot;p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;org-mode&lt;/span&gt;
   &lt;span class=&quot;p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;jekyll&lt;/span&gt;
   &lt;span class=&quot;p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;web&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;published&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;true&lt;/span&gt;
-&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;##+END_HTML&lt;/span&gt;
+ &lt;span class=&quot;l-Scalar-Plain&quot;&gt;published&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;true&lt;/span&gt;
+ &lt;span class=&quot;l-Scalar-Plain&quot;&gt;---&lt;/span&gt;
+ &lt;span class=&quot;err&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#+END_HTML&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
@@ -597,39 +894,19 @@ instance.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;div id=&quot;outline-container-7&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-7&quot;&gt;Summary&lt;/h3&gt;
+&lt;h3 id=&quot;sec-7&quot;&gt;Links to Posts&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-7&quot;&gt;
 
-&lt;p&gt;We have seen how to configure Emacs Org-mode so that we can easily
-maintain a static website or blog with Jekyll. To ease the deployment,
-we complement this article with an accompanying &lt;a href=&quot;https://github.com/gorgnegre/org-jekyll&quot;&gt;github repository&lt;/a&gt; —with
-the directory structure, required configuration files and
-instructions. Feel free to clone it.
+&lt;p&gt;To link to another post in my site while writing in org-mode, I use the
+following syntax:
 &lt;/p&gt;
-&lt;p&gt;
-With this setup, the workflow to post a blog or article can be
-summarised as:
-&lt;/p&gt;&lt;ol&gt;
-&lt;li&gt;Go to the &lt;code&gt;rootdir&lt;/code&gt; and launch &lt;code&gt;jekyll --server --auto&lt;/code&gt;.  (With these
-   options, jekyll runs a webserver on &lt;a href=&quot;http://localhost:4000&quot;&gt;http://localhost:4000&lt;/a&gt;, and keeps
-   track of changing files under &lt;code&gt;rootdir&lt;/code&gt;.)
-&lt;/li&gt;
-&lt;li&gt;Launch &lt;code&gt;emacs&lt;/code&gt;:
-&lt;ol&gt;
-&lt;li&gt;&lt;code&gt;C-c j d&lt;/code&gt; to open new draft.
-&lt;/li&gt;
-&lt;li&gt;Write draft.
-&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;C-c j p&lt;/code&gt; When ready, move draft to post.
-&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;C-c C-e X mvm&lt;/code&gt; Publish project.
-&lt;/li&gt;
-&lt;/ol&gt;
 
-&lt;/li&gt;
-&lt;li&gt;Copy &lt;code&gt;org-jekyll/rootdir/_site&lt;/code&gt; to live webserver.
-&lt;/li&gt;
-&lt;/ol&gt;
+
+&lt;pre class=&quot;example&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;cl&quot;&gt;&lt;span class=&quot;nv&quot;&gt;[[file:{%&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;post_url&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;2007-12-15-utthita-trikonasana&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;%}][Utthita&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Trikonasana]]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;/pre&gt;
 
 
 &lt;/div&gt;
@@ -703,9 +980,699 @@ behaviour:
 Possibly, a better solution can be achieved with a Javascript snipped
 such as the &lt;a href=&quot;http://fuelyourcoding.com/scripts/toc/&quot;&gt;jQuery table of contents plugin&lt;/a&gt;. Check out &lt;a href=&quot;http://brizzled.clapper.org/blog/2012/02/04/generating-a-table-of-contents-in-octopress/&quot;&gt;Clapper's blog&lt;/a&gt;
 for an implementation.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-9&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-9&quot;&gt;Summary&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-9&quot;&gt;
+
+&lt;p&gt;We have seen how to configure Emacs Org-mode so that we can easily
+maintain a static website or blog with Jekyll. To ease the deployment,
+we complement this article with an accompanying &lt;a href=&quot;https://github.com/gorgnegre/org-jekyll&quot;&gt;github repository&lt;/a&gt; —with
+the directory structure, required configuration files and
+instructions. Feel free to clone it.
+&lt;/p&gt;
+&lt;p&gt;
+With this setup, the workflow to post a blog or article can be
+summarised as:
+&lt;/p&gt;&lt;ol&gt;
+&lt;li&gt;Go to the &lt;code&gt;rootdir&lt;/code&gt; and launch &lt;code&gt;jekyll --server --auto&lt;/code&gt;.  (With these
+   options, jekyll runs a webserver on &lt;a href=&quot;http://localhost:4000&quot;&gt;http://localhost:4000&lt;/a&gt;, and keeps
+   track of changing files under &lt;code&gt;rootdir&lt;/code&gt;.)
+&lt;/li&gt;
+&lt;li&gt;Launch &lt;code&gt;emacs&lt;/code&gt;:
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;C-c j d&lt;/code&gt; to open new draft.
+&lt;/li&gt;
+&lt;li&gt;Write draft.
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;C-c j p&lt;/code&gt; When ready, move draft to post.
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;C-c C-e X mvm&lt;/code&gt; Publish project.
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;/li&gt;
+&lt;li&gt;Copy &lt;code&gt;org-jekyll/rootdir/_site&lt;/code&gt; to live webserver.
+&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;!-- hhmts start --&gt; &lt;!-- hhmts end --&gt;&lt;/p&gt;
+</content>
+    </entry>
+    
+    <entry>
+        <title>Parighasana</title>
+        <link href="http://www.gorgnegre.com/joga/curs-guiat-de-ioga-iyengar.html"/>
+        <updated>2010-01-01T00:00:00+01:00</updated>
+        <id>http://www.gorgnegre.com/joga/curs-guiat-de-ioga-iyengar</id>
+        <content type="html">&lt;p&gt;Parighasana, la postura del fermall.&lt;/p&gt;
+&lt;div class=&quot;yogafont&quot;&gt;
+*  
+&lt;/div&gt;
+
+
+&lt;div id=&quot;outline-container-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-1&quot;&gt;Tècnica&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-1&quot;&gt;
+
+
+&lt;p&gt;
+Comencem explicant el viratge a la dreta, i després s'invertiran els
+termes per fer el gir cap a l'esquerra.
+&lt;/p&gt;&lt;ol&gt;
+&lt;li&gt;Ens agenollem sobre unes mantes paral.lels i contigus pel costat
+      esquerra amb una paret. El cos s'aixeca a plom des dels genolls
+      fins la coroneta.
+&lt;/li&gt;
+&lt;li&gt;Extenem la cama dreta, amb la planta del peu al terra paral.lela a
+      la paret.
+&lt;/li&gt;
+&lt;li&gt;Braç dret en creu, i braç esquerre vertical a la paret, palmell a
+      la paret;
+&lt;/li&gt;
+&lt;li&gt;La cadera esquerra no s'ha de separar de la paret en tot
+      l'exercici.
+&lt;/li&gt;
+&lt;li&gt;Redrecem el cos.
+&lt;/li&gt;
+&lt;li&gt;Extensió a la dreta com en &lt;a href=&quot;/joga/utthita-trikonasana.html&quot;&gt;Utthita Trikonasana&lt;/a&gt;, fins a agafar-nos
+      el peu dret amb la mà dreta. Llavors portem el braç esquerre com
+      en &lt;a href=&quot;../utthita-parsvakonasana.html&quot;&gt;Utthita Parsvakonasana&lt;/a&gt; i extenem el costat esquerre. Idealment
+      els dos palmells s'haurien de trobar al peu dret.
+&lt;/li&gt;
+&lt;li&gt;Debutants: en comptes de tenir el peu de la cama estirada pla al
+      terra, podem mantenir la planta vertical tirant del taló enfora.
+&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;
+Per a instruccions complementàries, cf. Mehta,pag. 48.
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-2&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-2&quot;&gt;Treball&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2&quot;&gt;
+
+
+&lt;p&gt;
+El treball és molt semblant al d'&lt;a href=&quot;../utthita-trikonasana.html&quot;&gt;Utthita Trikonasana&lt;/a&gt;, en quant a
+obertura de pit i ingle, allongament costal, etc.
+&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;Extendre el costat esquerra i abaixar-lo per extendre el costat
+      dret; 
+&lt;/li&gt;
+&lt;li&gt;No separar la cadera de la paret i mantenir el pla de l'esquena en
+      tota la postura; 
+&lt;/li&gt;
+&lt;li&gt;Tirar la cadera dreta endavant i obrir-la.
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-3&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-3&quot;&gt;Variacions&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3&quot;&gt;
+
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-3-1&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-3-1&quot;&gt;Parighasana 2&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-3-1&quot;&gt;
+
+&lt;p&gt;Versió contrària de l'anterior. Ara amb la planta del peu extès a la
+paret i el taló al terra. 
+&lt;/p&gt;&lt;ol&gt;
+&lt;li&gt;De genolls, braços en creu, gir de braços i palmells en creu;
+&lt;/li&gt;
+&lt;li&gt;Palmell dret a la paret, dits cap avall;
+&lt;/li&gt;
+&lt;li&gt;Baixar fins a trobar el peu.
+&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-4&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-4&quot;&gt;Tria la Teva Aventura&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-4&quot;&gt;
+
+&lt;p&gt;Aquesta assana sovint va seguida contiguament d'assanes que es puguin
+fer a la paret, i en particular d'aquestes: 
+&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#sec-3-1&quot;&gt;Parighasana 2&lt;/a&gt; sovint segueix a Parighasana.
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;../adho-mukha-virasana.html&quot;&gt;Adho Mukha Virasana&lt;/a&gt;.
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;../adho-mukha-svanasana.html&quot;&gt;Adho Mukha Svanasana&lt;/a&gt;. Amb els talons a la paret.
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;!-- hhmts start --&gt; &lt;!-- hhmts end --&gt;&lt;/p&gt;
+</content>
+    </entry>
+    
+    <entry>
+        <title>Utthita Trikonasana</title>
+        <link href="http://www.gorgnegre.com/joga/utthita-parsvakonasana.html"/>
+        <updated>2008-01-01T00:00:00+01:00</updated>
+        <id>http://www.gorgnegre.com/joga/utthita-parsvakonasana</id>
+        <content type="html">&lt;p&gt;Utthita Trikonasana, la postura del Triangle Estès.&lt;/p&gt;
+&lt;div class=&quot;yogafont&quot;&gt;
+f
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-1&quot;&gt;General&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-1&quot;&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;../tadasana.html&quot;&gt;Tadasana&lt;/a&gt;, mans a les clavícules i saltar.
+&lt;/li&gt;
+&lt;li&gt;Peu esquerra 20 graus, dret 90. Mantenim el maluc endavant.
+&lt;/li&gt;
+&lt;li&gt;Prenem aire i sense perdre el pla de el maluc, ens estenem
+    lateralment cap a la dreta i ens agafem el turmell. Expirem.
+&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-2&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-2&quot;&gt;Treball en la Postura&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2&quot;&gt;
+
+&lt;ul&gt;
+&lt;li&gt;El maluc al pla dels peus.
+&lt;/li&gt;
+&lt;li&gt;No corbem el costellam: tirem del lateral esquerre avall per aplanar
+   la convexitat i redrecem la concavitat del costat dret, i aconseguim
+   així un tronc estirat i recte. Notem que aquest treball és
+   concomitant a l'obertura de l'engonal dreta.
+&lt;/li&gt;
+&lt;li&gt;Obrim les engonals. L'engonal dreta ha d'anar cap avall. L'engonal
+   esquerra l'obrim amb el moviment de quàdriceps explicat a &lt;a href=&quot;../postures-drets-o-dempeus.html&quot;&gt;Postures de Peu&lt;/a&gt;.
+&lt;/li&gt;
+&lt;li&gt;El braç dret ha d'estar ben tens. Les dues espatlles han d'anar avall
+   i enrere per obrir pit.
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;!-- hhmts start --&gt; &lt;!-- hhmts end --&gt;&lt;/p&gt;
+</content>
+    </entry>
+    
+    <entry>
+        <title>Utthita Trikonasana</title>
+        <link href="http://www.gorgnegre.com/joga/utthita-trikonasana.html"/>
+        <updated>2007-12-15T00:00:00+01:00</updated>
+        <id>http://www.gorgnegre.com/joga/utthita-trikonasana</id>
+        <content type="html">&lt;p&gt;Utthita Trikonasana, la postura del Triangle Estès.&lt;/p&gt;
+&lt;div class=&quot;yogafont&quot;&gt;
+f
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-1&quot;&gt;General&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-1&quot;&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;../tadasana.html&quot;&gt;Tadasana&lt;/a&gt;, mans a les clavícules i saltar.
+&lt;/li&gt;
+&lt;li&gt;Peu esquerra 20 graus, dret 90. Mantenim el maluc endavant.
+&lt;/li&gt;
+&lt;li&gt;Prenem aire i sense perdre el pla del maluc, ens estenem
+    lateralment cap a la dreta i ens agafem el turmell. Expirem.
+&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-2&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-2&quot;&gt;Treball en la Postura&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2&quot;&gt;
+
+&lt;ul&gt;
+&lt;li&gt;El maluc al pla dels peus.
+&lt;/li&gt;
+&lt;li&gt;No corbem el costellam: tirem del lateral esquerre avall per aplanar
+   la convexitat i redrecem la concavitat del costat dret, i aconseguim
+   així un tronc estirat i recte. Notem que aquest treball és
+   concomitant a l'obertura de l'engonal dreta.
+&lt;/li&gt;
+&lt;li&gt;Obrim les engonals. L'engonal dreta ha d'anar cap avall. L'engonal
+   esquerra l'obrim amb el moviment de quàdriceps explicat a &lt;a href=&quot;../postures-drets-o-dempeus.html&quot;&gt;Postures de Peu&lt;/a&gt;.
+&lt;/li&gt;
+&lt;li&gt;El braç dret ha d'estar ben tens. Les dues espatlles han d'anar avall
+   i enrere per obrir pit.
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;!-- hhmts start --&gt; &lt;!-- hhmts end --&gt;&lt;/p&gt;
+</content>
+    </entry>
+    
+    <entry>
+        <title>Parighasana</title>
+        <link href="http://www.gorgnegre.com/joga/parighasana.html"/>
+        <updated>2007-12-10T00:00:00+01:00</updated>
+        <id>http://www.gorgnegre.com/joga/parighasana</id>
+        <content type="html">&lt;p&gt;Parighasana, la postura del fermall.&lt;/p&gt;
+&lt;div class=&quot;yogafont&quot;&gt;
+*  
+&lt;/div&gt;
+
+
+&lt;div id=&quot;outline-container-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-1&quot;&gt;Tècnica&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-1&quot;&gt;
+
+
+&lt;p&gt;
+Comencem explicant el viratge a la dreta, i després s'invertiran els
+termes per fer el gir cap a l'esquerra.
+&lt;/p&gt;&lt;ol&gt;
+&lt;li&gt;Ens agenollem sobre unes mantes paral.lels i contigus pel costat
+      esquerra amb una paret. El cos s'aixeca a plom des dels genolls
+      fins la coroneta.
+&lt;/li&gt;
+&lt;li&gt;Extenem la cama dreta, amb la planta del peu al terra paral.lela a
+      la paret.
+&lt;/li&gt;
+&lt;li&gt;Braç dret en creu, i braç esquerre vertical a la paret, palmell a
+      la paret;
+&lt;/li&gt;
+&lt;li&gt;La cadera esquerra no s'ha de separar de la paret en tot
+      l'exercici.
+&lt;/li&gt;
+&lt;li&gt;Redrecem el cos.
+&lt;/li&gt;
+&lt;li&gt;Extensió a la dreta com en &lt;a href=&quot;/joga/utthita-trikonasana.html&quot;&gt;Utthita Trikonasana&lt;/a&gt;, fins a agafar-nos
+      el peu dret amb la mà dreta. Llavors portem el braç esquerre com
+      en &lt;a href=&quot;../utthita-parsvakonasana.html&quot;&gt;Utthita Parsvakonasana&lt;/a&gt; i extenem el costat esquerre. Idealment
+      els dos palmells s'haurien de trobar al peu dret.
+&lt;/li&gt;
+&lt;li&gt;Debutants: en comptes de tenir el peu de la cama estirada pla al
+      terra, podem mantenir la planta vertical tirant del taló enfora.
+&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;
+Per a instruccions complementàries, cf. Mehta,pag. 48.
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-2&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-2&quot;&gt;Treball&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2&quot;&gt;
+
+
+&lt;p&gt;
+El treball és molt semblant al d'&lt;a href=&quot;../utthita-trikonasana.html&quot;&gt;Utthita Trikonasana&lt;/a&gt;, en quant a
+obertura de pit i ingle, allongament costal, etc.
+&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;Extendre el costat esquerra i abaixar-lo per extendre el costat
+      dret;
+&lt;/li&gt;
+&lt;li&gt;No separar la cadera de la paret i mantenir el pla de l'esquena en
+      tota la postura;
+&lt;/li&gt;
+&lt;li&gt;Tirar la cadera dreta endavant i obrir-la.
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-3&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-3&quot;&gt;Variacions&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3&quot;&gt;
+
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-3-1&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-3-1&quot;&gt;Parighasana 2&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-3-1&quot;&gt;
+
+&lt;p&gt;Versió contrària de l'anterior. Ara amb la planta del peu extès a la
+paret i el taló al terra.
+&lt;/p&gt;&lt;ol&gt;
+&lt;li&gt;De genolls, braços en creu, gir de braços i palmells en creu;
+&lt;/li&gt;
+&lt;li&gt;Palmell dret a la paret, dits cap avall;
+&lt;/li&gt;
+&lt;li&gt;Baixar fins a trobar el peu.
+&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-4&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-4&quot;&gt;Tria la Teva Aventura&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-4&quot;&gt;
+
+&lt;p&gt;Aquesta assana sovint va seguida contiguament d'assanes que es puguin
+fer a la paret, i en particular d'aquestes:
+&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#sec-3-1&quot;&gt;Parighasana 2&lt;/a&gt; sovint segueix a Parighasana.
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;../adho-mukha-virasana.html&quot;&gt;Adho Mukha Virasana&lt;/a&gt;.
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;../adho-mukha-svanasana.html&quot;&gt;Adho Mukha Svanasana&lt;/a&gt;. Amb els talons a la paret.
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;!-- hhmts start --&gt; &lt;!-- hhmts end --&gt;&lt;/p&gt;
+</content>
+    </entry>
+    
+    <entry>
+        <title>Garudasana</title>
+        <link href="http://www.gorgnegre.com/joga/garudasana.html"/>
+        <updated>2007-12-05T00:00:00+01:00</updated>
+        <id>http://www.gorgnegre.com/joga/garudasana</id>
+        <content type="html">&lt;p&gt;Garudasana: la postura de l'Àguila&lt;/p&gt;
+&lt;div class=&quot;yogafont&quot;&gt;
+L
+&lt;/div&gt;
+
+
+&lt;div id=&quot;outline-container-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-1&quot;&gt;Tècnica&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-1&quot;&gt;
+
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-1-1&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-1-1&quot;&gt;Només la part de braços&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-1&quot;&gt;
+
+&lt;p&gt;(cf. p.46, Mehta.)
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;/joga/tadasana.html&quot;&gt;Tadasana&lt;/a&gt;;
+&lt;/li&gt;
+&lt;li&gt;Mà dreta a l'espatlla esquerra;
+&lt;/li&gt;
+&lt;li&gt;Cacem el colze dret amb el colze interior esquerre;
+&lt;/li&gt;
+&lt;li&gt;Ajuntem les mans perpendiculars al cos;
+&lt;/li&gt;
+&lt;li&gt;Alcem els braços fins a tenir els colzes a l'alçada de les espatlles.
+&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-1-2&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-1-2&quot;&gt;Només la part de cames&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-2&quot;&gt;
+
+&lt;p&gt;(cf. fig. 1 p.46, Mehta.)
+&lt;/p&gt;
+&lt;p&gt;
+Si tenim encara poc equilibri ens podem apropar a una paret.
+&lt;/p&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;/joga/tadasana.html&quot;&gt;Tadasana&lt;/a&gt;;
+&lt;/li&gt;
+&lt;li&gt;Mans a la cintura i flexió de genolls (com a &lt;a href=&quot;#&quot;&gt;Utkata'sana&lt;/a&gt;);
+&lt;/li&gt;
+&lt;li&gt;Cama dreta creua per davant l'esquerra; (ajudant-nos de les mans si
+    convé) fem passar el peu dret per darrera el bessó esquerra;
+&lt;/li&gt;
+&lt;li&gt;Obrim pit i intentem erguir-nos.
+&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-1-3&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-1-3&quot;&gt;Mans i cames&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-3&quot;&gt;
+
+&lt;p&gt;Entrem primer en braços i després en cames.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-2&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-2&quot;&gt;Variacions&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2&quot;&gt;
+
+&lt;p&gt;Treball de cames per a Garudasana:
+&lt;/p&gt;&lt;ol&gt;
+&lt;li&gt;Estirats pronament, dobleguem els genolls amb les plantes planes al
+    terra;
+&lt;/li&gt;
+&lt;li&gt;Passem un genoll per sobre la cuixa de l'altra cama i l'empenya per
+    sota el bessó;
+&lt;/li&gt;
+&lt;li&gt;Intentem estirar les cames tant com puguem però sempre mantenint els
+    dos talons al terra (i no les plantes);
+&lt;/li&gt;
+&lt;li&gt;Estirar talons.
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;!-- hhmts start --&gt; &lt;!-- hhmts end --&gt;&lt;/p&gt;
+</content>
+    </entry>
+    
+    <entry>
+        <title>Utthita Trikonasana</title>
+        <link href="http://www.gorgnegre.com/joga/tadasana.html"/>
+        <updated>2007-12-01T00:00:00+01:00</updated>
+        <id>http://www.gorgnegre.com/joga/tadasana</id>
+        <content type="html">&lt;p&gt;Utthita Trikonasana, la postura del Triangle Estès.&lt;/p&gt;
+&lt;div class=&quot;yogafont&quot;&gt;
+f
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-1&quot;&gt;General&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-1&quot;&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;../tadasana.html&quot;&gt;Tadasana&lt;/a&gt;, mans a les clavícules i saltar.
+&lt;/li&gt;
+&lt;li&gt;Peu esquerra 20 graus, dret 90. Mantenim el maluc endavant.
+&lt;/li&gt;
+&lt;li&gt;Prenem aire i sense perdre el pla de el maluc, ens estenem
+    lateralment cap a la dreta i ens agafem el turmell. Expirem.
+&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-2&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-2&quot;&gt;Treball en la Postura&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2&quot;&gt;
+
+&lt;ul&gt;
+&lt;li&gt;El maluc al pla dels peus.
+&lt;/li&gt;
+&lt;li&gt;No corbem el costellam: tirem del lateral esquerre avall per aplanar
+   la convexitat i redrecem la concavitat del costat dret, i aconseguim
+   així un tronc estirat i recte. Notem que aquest treball és
+   concomitant a l'obertura de l'engonal dreta.
+&lt;/li&gt;
+&lt;li&gt;Obrim les engonals. L'engonal dreta ha d'anar cap avall. L'engonal
+   esquerra l'obrim amb el moviment de quàdriceps explicat a &lt;a href=&quot;../postures-drets-o-dempeus.html&quot;&gt;Postures de Peu&lt;/a&gt;.
+&lt;/li&gt;
+&lt;li&gt;El braç dret ha d'estar ben tens. Les dues espatlles han d'anar avall
+   i enrere per obrir pit.
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;!-- hhmts start --&gt; &lt;!-- hhmts end --&gt;&lt;/p&gt;
+</content>
+    </entry>
+    
+    <entry>
+        <title>Postures Drets o d'Empeus</title>
+        <link href="http://www.gorgnegre.com/joga/postures-drets-o-dempeus.html"/>
+        <updated>2007-11-30T00:00:00+01:00</updated>
+        <id>http://www.gorgnegre.com/joga/postures-drets-o-dempeus</id>
+        <content type="html">&lt;p&gt;
+Diverses consideracions sobre les postures d'empeus.
+&lt;/p&gt;
+
+&lt;div id=&quot;outline-container-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-1&quot;&gt;Recolzament dels peus&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-1&quot;&gt;
+
+
+&lt;p&gt;
+En totes les assanes de peu amb les cames separades i un peu a 90 graus
+i l'altra a 15 graus (les kona'sanes, guerrers,&amp;hellip;) convé clavar el peu
+de 15 graus fortament amb la part externa del taló. Al mateix temps cal
+compensar apretant el turmell exterior cap endins. De fet el peu ha de
+reposar fermament en els quatre cantons del peu. «Wir tanzen im Viereck
+wir tanzen konzentriert!»
+&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-1-1&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-1-1&quot;&gt;Consideracions terapèutiques&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-1-1&quot;&gt;
+
+&lt;dl&gt;
+&lt;dt&gt;&lt;i&gt;Peus Plans&lt;/i&gt;&lt;/dt&gt;&lt;dd&gt;Els que tenim el peu pla, podem exercitar l'aixecar
+                   el dit gros (deixant tots els altres al terra) per
+                   accenturar l'aparició del pont. Aquest exercici és
+                   especialment adequat durant &lt;a href=&quot;/joga/tadasana.html&quot;&gt;Tadasana&lt;/a&gt;. 
+&lt;/dd&gt;
+&lt;dt&gt;&lt;i&gt;Peus plans&lt;/i&gt;&lt;/dt&gt;&lt;dd&gt;De petit se sentia dir que les bambes feien malbé el
+                   pont; ara ja no se'n parla tant, oi?
+&lt;/dd&gt;
+&lt;/dl&gt;
+
+
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-2&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-2&quot;&gt;Obertura de l'Engonal&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2&quot;&gt;
+
+
+&lt;p&gt;
+En general, en les postures de peu els quadríceps han de treballar per
+obrir l'engonal. Això s'aconsegueix fent que el quadrícep interior
+treballi en sentit cap al genoll, mentre que el quadrícep exterior ho fa
+del genoll cap a la cadera. En una postura com &lt;a href=&quot;/joga/tadasana.html&quot;&gt;Tadasana&lt;/a&gt;, aquest moviment
+té el benefici afegit que automàticament porta el coxis una mica avall i
+endavant.
+&lt;/p&gt;
+&lt;p&gt;
+En particular, a les postures Utthita {&lt;a href=&quot;/joga/utthita-parsvakonasana.html&quot;&gt;Parsva&lt;/a&gt;,&lt;a href=&quot;/joga/utthita-trikonasana.html&quot;&gt;Tri&lt;/a&gt;}kona'sana /
+&lt;a href=&quot;#&quot;&gt;Virabhadra'sana 2&lt;/a&gt;, el quadrícep posterior ha d'obrir l'engonal i
+aconseguir fermar ben estirada i aixecada la cama posterior.
+&lt;/p&gt;
+&lt;p&gt;
+A Parsvakonasana, el genoll ha de guiar l'obertura de l'engonal
+anterior, ajudada bo i baixant el coxis (vigilant les lumbars) i pel
+quadrícep.
+&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-2-1&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;sec-2-1&quot;&gt;Consideracions terapèutiques&lt;/h4&gt;
+&lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-1&quot;&gt;
+
+&lt;ul&gt;
+&lt;li&gt;No fer postures d'obertura pèlvica si ens dol la part inferior de
+   l'esquena.
+&lt;/li&gt;
+&lt;li&gt;Les postures d'obertura pèlvica cuiden els genitals interns. Són
+   particularment adequades durant la menstruació en les dones i, en els
+   homes, per prevenir problemes de pròstata (diu l'ocellet que els
+   sabaters hindús no tenen càncer de pròstata, serà cert?)
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-3&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-3&quot;&gt;Obertura del genoll posterior&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3&quot;&gt;
+
+
+&lt;p&gt;
+Quan les cames estan estirades i tenses, com en Tadasana, cal obrir el
+genoll posterior. En general l'obertura del genoll exterior és un
+moviment més subtil que només l'alçament de la ròtula mentre tensem els
+quàdriceps per bloquejar la cama, tot i que aquests darrers moviments
+són necessaris per obrir-lo.
 &lt;/p&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;!-- hhmts start --&gt; &lt;!-- hhmts end --&gt;&lt;/p&gt;
 </content>
     </entry>
     

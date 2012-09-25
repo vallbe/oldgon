@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>http://www.gorgnegre.com/linux/public-encryption-key.html</loc>
+        <lastmod>2012-08-19</lastmod>
+    </url>
+    
+    <url>
         <loc>http://www.gorgnegre.com/linux/tree-command-as-a-sitemap-generator.html</loc>
         <lastmod>2012-07-22</lastmod>
     </url>
@@ -12,8 +17,98 @@
     </url>
     
     <url>
+        <loc>http://www.gorgnegre.com/joga/curs-guiat-de-ioga-iyengar.html</loc>
+        <lastmod>2010-01-01</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://www.gorgnegre.com/joga/utthita-parsvakonasana.html</loc>
+        <lastmod>2008-01-01</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://www.gorgnegre.com/joga/utthita-trikonasana.html</loc>
+        <lastmod>2007-12-15</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://www.gorgnegre.com/joga/parighasana.html</loc>
+        <lastmod>2007-12-10</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://www.gorgnegre.com/joga/garudasana.html</loc>
+        <lastmod>2007-12-05</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://www.gorgnegre.com/joga/tadasana.html</loc>
+        <lastmod>2007-12-01</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://www.gorgnegre.com/joga/postures-drets-o-dempeus.html</loc>
+        <lastmod>2007-11-30</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://www.gorgnegre.com/joga/bandhes.html</loc>
+        <lastmod>2007-11-25</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://www.gorgnegre.com/joga/relaxacio.html</loc>
+        <lastmod>2007-11-20</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://www.gorgnegre.com/joga/suports-i-complements.html</loc>
+        <lastmod>2007-11-15</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://www.gorgnegre.com/joga/assanes-del-joga-iyengar.html</loc>
+        <lastmod>2007-11-10</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://www.gorgnegre.com/joga/bibliografia.html</loc>
+        <lastmod>2007-11-05</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://www.gorgnegre.com/joga/meditacio.html</loc>
+        <lastmod>2007-10-30</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://www.gorgnegre.com/joga/anatomia-humana.html</loc>
+        <lastmod>2007-10-20</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://www.gorgnegre.com/joga/estiraments.html</loc>
+        <lastmod>2007-10-15</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://www.gorgnegre.com/joga/joga-de-tots-colors.html</loc>
+        <lastmod>2007-10-05</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://www.gorgnegre.com/joga/instrument-de-salut.html</loc>
+        <lastmod>2007-10-04</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://www.gorgnegre.com/joga/joga-presentacio.html</loc>
+        <lastmod>2007-09-25</lastmod>
+    </url>
+    
+    <url>
         <loc>http://www.gorgnegre.com</loc>
-        <lastmod>2012-07-25</lastmod>
+        <lastmod>2012-09-26</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
@@ -22,7 +117,7 @@
     </url>
     <url>
         <loc>http://www.gorgnegre.com/files/pages/archive.html</loc>
-        <lastmod>2012-07-25</lastmod>
+        <lastmod>2012-09-26</lastmod>
         <changefreq>weekly</changefreq>
     </url>
 </urlset>

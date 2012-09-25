@@ -45,23 +45,11 @@
     <link rel="shortcut icon" type="image/x-icon" href="/files/images/favicon.ico" />
     <link rel="canonical" href="http://www.gorgnegre.com/linux/using-emacs-orgmode-to-blog-with-jekyll.html" /> 
 
+    <script type="text/javascript" src="/files/js/cumulus.js"></script>
     <script type="text/javascript" src="/files/js/jquery-1.3.2.min.js"></script>
     <script type="text/javascript" src="/files/js/jquery.color.min.js"></script>
     <script type="text/javascript" src="/files/js/easySlider.min.js"></script>
     <script type="text/javascript">$(document).ready(function(){$("#slider").easySlider();});</script>
-
-<!--
-    <script type="text/javascript">
-        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-        try {
-            var pageTracker = _gat._getTracker("UA-4333113-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-    </script>
--->
 
 <!-- image menu: not working, from http://algorithmique.net/ -->
   <script type="text/javascript" charset="utf-8" src="/files/js/imagemenu.js"></script>
@@ -85,7 +73,21 @@
       });
   </script>
 
+<script type="text/javascript">
 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34187626-1']);
+  _gaq.push(['_setDomainName', 'gorgnegre.com']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 
 </head>
 
@@ -155,19 +157,30 @@
 				    </a>
                 </h1>
             </div>
-            <div class="hero floatRight colSix">
-                <p class="moin">You&#8217;re currently viewing a single article. Feel free to skip back to <a href="/" rel="home" title="Go back to the homepage" tabindex="0">&sect; Index</a> or straight to <a href="/#notebook" title="Skip straight to the latest article" tabindex="0" accesskey="L">&sect; Latest article</a>.</p>
+            <div class="herobis floatRight colSix">
+
+                <p style="margin-top:-5px;color:#0d1d26"
+                class="moin">:: 
+<a class="nocolor" href="/categories/linux/index.html#cover">Linux</a> 
+         ::</p>
+                 <p style="clear:both;">You&#8217;re currently viewing a single
+                article.</p>
+                 <p style="clear:both;">Feel free to skip back to <a href="/" rel="home"
+                title="Go back to the homepage" tabindex="0">&sect;
+                Index</a> or straight to <a href="/#notebook"
+                title="Skip straight to the latest article" tabindex="0"
+                accesskey="L">&sect; Latest article</a>.</p>
 			</div>
 		</div> <!-- /#header.center -->
 
           <div id="nav" class="clear">
             <ul class="nav nav-header caps">
-            <li><a href="/ecoturisme/" title="Rural Tourism, horses, bees,
+            <li><a href="/categories/ecotourism#cover" title="Rural Tourism, horses, bees,
       ...the farm" tabindex="0">Ecotourism</a></li>
-      <li><a href="/astro/" title="Our astrophysical observatory" tabindex="0">Astronomy</a></li>
-      <li><a href="/joga/" title="Our online yoga site">Yoga</a></li>
-      <li><a href="/filo/" title="Philosophy articles">Philosophy</a></li>
-      <li class="tux"><a href="/linux/" title="Configuration of and tips about
+      <li><a href="/categories/astronomy#cover" title="Our astrophysical observatory" tabindex="0">Astronomy</a></li>
+      <li><a href="/categories/joga#cover" title="Our online yoga site">Yoga</a></li>
+      <li><a href="/categories/philosophy#cover" title="Philosophy articles">Philosophy</a></li>
+      <li class="tux"><a href="/categories/linux#cover" title="Configuration of and tips about
           Linux and open source software">Linux</a></li>
 <!--      <li><a href="/2012/07/03/my-first-pos2.html" title="Bits &
           Bobs">Clicks <span class="amp">&amp;</span> Cuts</a></li> 
@@ -210,12 +223,80 @@
 
   <div id="notebook" class="center clear">
     <div class="page-nav-top">
+<!--
+
+
+  <div class="next-box">
+    <div class="help">This post is part of a series called linux.</div>
+    <div class="help">The next in the series is <a href="/linux/tree-command-as-a-sitemap-generator.html">Tree Command as a Sitemap Generator</a> ()</div>
+            <span class=excerpt></span>
+  </div>
+
+
+
+<div>Other posts in the linux series:</div>
+
+  
+  <div class="series-item current">
+    <div class="title">Blogging with Emacs Org-mode and Jekyll</div>
+  </div>
+  
+
+  
+  <div class="series-item">
+    <div class="title"><a href="/linux/tree-command-as-a-sitemap-generator.html">Tree Command as a Sitemap Generator</a></div>
+    <div class="info"></div>
+  </div>
+  
+
+  
+  <div class="series-item">
+    <div class="title"><a href="/linux/public-encryption-key.html">Public Encryption Key</a></div>
+    <div class="info"></div>
+  </div>
+  
+
+
+-->
+
       
       
-      <span class="page-nav-item floatRight"><a class="internal" rel="next"  href="/linux/tree-command-as-a-sitemap-generator.html#notebook" title="View Tree Command as a Sitemap Generator">View next article &rarr;</a></span>
+      <span class="page-nav-item floatRight"><a class="internal" rel="next"  href="/linux/tree-command-as-a-sitemap-generator.html#notebook" title="View next article: Tree Command as a Sitemap Generator"> Tree Command as a Sitemap Generator &rarr;</a></span>
       
     </div> <!-- /.page-nav-top -->
     <div class="entry-content colEight">
+      <span id="bread" class="floatRight">
+<ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a class="nocolor" href="/">home</a> &#187; </li>
+  
+  <li><a class="nocolor" href="/linux">linux</a> &#187; </li>
+  
+
+</ul>
+</span>
+
+
+
       <h2 class="clear">Blogging with Emacs Org-mode and Jekyll</h2>
       <span class="date" title="2012-07-17T00:00:00+02:00">
         <span class="published">Published&thinsp;&bull;</span>
@@ -291,6 +372,8 @@ under version control using <a href="http://git-scm.com/">Git</a>.
 <li>The excellent Juan Reyero's <a href="http://juanreyero.com/open/org-jekyll/">Org-Jekyll site</a>. [Not yet implemented here.]
 </li>
 <li>The convenient Metajack's <a href="http://metajack.im/2009/01/02/manage-jekyll-from-emacs/">Emacs-Jekyll hack</a>.
+</li>
+<li>Justin Lilly's succint <a href="http://justinlilly.com/emacs/orgmode_static_site_generator.html">org publishing page</a>.
 </li>
 </ol>
 
@@ -502,7 +585,8 @@ Things to note:
 <h3 id="sec-5">YAML Headers in Org Files</h3>
 <div class="outline-text-3" id="text-5">
 
-
+<p>#yaml-headers
+</p>
 <p>
 As we mentioned, Jekyll parses files with YAML headers and uses the
 variables therein specified through the templates held in the <code>_layouts</code>
@@ -539,21 +623,21 @@ the first lines in our org file will now look like:
 </p>
 
 
-<pre class="example"><div class="highlight"><pre><code class="yaml"><span class="c1">#+BEGIN_HTML</span>
-<span class="nn">---</span>
-<span class="l-Scalar-Plain">layout</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">post</span>
-<span class="l-Scalar-Plain">title</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">Blogging with Emacs Org-mode and Jekyll</span>
-<span class="l-Scalar-Plain">excerpt</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">How to set up the combo emacs org-mode &amp;amp; jekyll to publish a static website/blog.</span>
-<span class="l-Scalar-Plain">categories</span><span class="p-Indicator">:</span>
+<pre class="example"><div class="highlight"><pre><code class="yaml"> <span class="c1">#+BEGIN_HTML</span>
+ <span class="l-Scalar-Plain">---</span>
+ <span class="l-Scalar-Plain">layout</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">post</span>
+ <span class="l-Scalar-Plain">title</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">Blogging with Emacs Org-mode and Jekyll</span>
+ <span class="l-Scalar-Plain">excerpt</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">How to set up the combo emacs org-mode &amp;amp; jekyll to publish a static website/blog.</span>
+ <span class="l-Scalar-Plain">categories</span><span class="p-Indicator">:</span>
   <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">linux</span>
-<span class="l-Scalar-Plain">tags</span><span class="p-Indicator">:</span>
+ <span class="l-Scalar-Plain">tags</span><span class="p-Indicator">:</span>
   <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">emacs</span>
   <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">org-mode</span>
   <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">jekyll</span>
   <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">web</span>
-<span class="l-Scalar-Plain">published</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">true</span>
-<span class="nn">---</span>
-<span class="c1">##+END_HTML</span>
+ <span class="l-Scalar-Plain">published</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">true</span>
+ <span class="l-Scalar-Plain">---</span>
+ <span class="err">,</span><span class="c1">#+END_HTML</span>
 </code></pre>
 </div>
 
@@ -727,39 +811,19 @@ instance.</p>
 </div>
 
 <div id="outline-container-7" class="outline-3">
-<h3 id="sec-7">Summary</h3>
+<h3 id="sec-7">Links to Posts</h3>
 <div class="outline-text-3" id="text-7">
 
-<p>We have seen how to configure Emacs Org-mode so that we can easily
-maintain a static website or blog with Jekyll. To ease the deployment,
-we complement this article with an accompanying <a href="https://github.com/gorgnegre/org-jekyll">github repository</a> —with
-the directory structure, required configuration files and
-instructions. Feel free to clone it.
+<p>To link to another post in my site while writing in org-mode, I use the
+following syntax:
 </p>
-<p>
-With this setup, the workflow to post a blog or article can be
-summarised as:
-</p><ol>
-<li>Go to the <code>rootdir</code> and launch <code>jekyll --server --auto</code>.  (With these
-   options, jekyll runs a webserver on <a href="http://localhost:4000">http://localhost:4000</a>, and keeps
-   track of changing files under <code>rootdir</code>.)
-</li>
-<li>Launch <code>emacs</code>:
-<ol>
-<li><code>C-c j d</code> to open new draft.
-</li>
-<li>Write draft.
-</li>
-<li><code>C-c j p</code> When ready, move draft to post.
-</li>
-<li><code>C-c C-e X mvm</code> Publish project.
-</li>
-</ol>
 
-</li>
-<li>Copy <code>org-jekyll/rootdir/_site</code> to live webserver.
-</li>
-</ol>
+
+<pre class="example"><div class="highlight"><pre><code class="cl"><span class="nv">[[file:{%</span> <span class="nv">post_url</span> <span class="nv">2007-12-15-utthita-trikonasana</span> <span class="nv">%}][Utthita</span> <span class="nv">Trikonasana]]</span>
+</code></pre>
+</div>
+
+</pre>
 
 
 </div>
@@ -833,9 +897,53 @@ behaviour:
 Possibly, a better solution can be achieved with a Javascript snipped
 such as the <a href="http://fuelyourcoding.com/scripts/toc/">jQuery table of contents plugin</a>. Check out <a href="http://brizzled.clapper.org/blog/2012/02/04/generating-a-table-of-contents-in-octopress/">Clapper's blog</a>
 for an implementation.
-</p></div>
+</p>
 </div>
 </div>
+
+</div>
+
+<div id="outline-container-9" class="outline-3">
+<h3 id="sec-9">Summary</h3>
+<div class="outline-text-3" id="text-9">
+
+<p>We have seen how to configure Emacs Org-mode so that we can easily
+maintain a static website or blog with Jekyll. To ease the deployment,
+we complement this article with an accompanying <a href="https://github.com/gorgnegre/org-jekyll">github repository</a> —with
+the directory structure, required configuration files and
+instructions. Feel free to clone it.
+</p>
+<p>
+With this setup, the workflow to post a blog or article can be
+summarised as:
+</p><ol>
+<li>Go to the <code>rootdir</code> and launch <code>jekyll --server --auto</code>.  (With these
+   options, jekyll runs a webserver on <a href="http://localhost:4000">http://localhost:4000</a>, and keeps
+   track of changing files under <code>rootdir</code>.)
+</li>
+<li>Launch <code>emacs</code>:
+<ol>
+<li><code>C-c j d</code> to open new draft.
+</li>
+<li>Write draft.
+</li>
+<li><code>C-c j p</code> When ready, move draft to post.
+</li>
+<li><code>C-c C-e X mvm</code> Publish project.
+</li>
+</ol>
+
+</li>
+<li>Copy <code>org-jekyll/rootdir/_site</code> to live webserver.
+</li>
+</ol>
+
+
+</div>
+</div>
+
+<p><br/><br/>
+<!-- hhmts start --> <!-- hhmts end --></p>
 
       <div class="meta">
         <!-- <span class="pdf">Download a <a href="/linux/using-emacs-orgmode-to-blog-with-jekyll.html.pdf" title="Download a PDF, printer-friendly copy of this article"><acronym title="Portable Document Format">PDF</acronym>, printer-friendly version of this article</a>.</span> -->
@@ -845,19 +953,41 @@ for an implementation.
     <div class="page-nav-bottom">
       
       
-      <span class="page-nav-item floatRight"><a class="internal" rel="next"  href="/linux/tree-command-as-a-sitemap-generator.html#notebook" title="View Tree Command as a Sitemap Generator">View next article &rarr;</a></span>
+      <span class="page-nav-item floatRight"><a class="internal" rel="next"  href="/linux/tree-command-as-a-sitemap-generator.html#notebook" title="View next article: Tree Command as a Sitemap Generator">Tree Command as a Sitemap Generator &rarr;</a></span>
       
     </div> <!-- /.page-nav-bottom -->
+
+    
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = 'gorgnegre'; // required: replace example with your forum shortname
+      var disqus_developer = 1; // This turns developer mode on
+                                // Make sure you remove this before you
+                                // push this to your live site.
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
   </div> <!-- #notebook.center.clear -->
 
         <div id="footer" class="center clear">
     <ul class="nav nav-footer caps">
-                  <li><a href="/ecoturisme/" title="Rural Tourism, horses, bees,
+                  <li><a href="/categories/ecotourism#cover" title="Rural Tourism, horses, bees,
       ...the farm" tabindex="0">Ecotourism</a></li>
-      <li><a href="/astro/" title="Our astrophysical observatory" tabindex="0">Astronomy</a></li>
-      <li><a href="/joga/" title="Our online yoga site">Yoga</a></li>
-      <li><a href="/filo/" title="Philosophy articles">Philosophy</a></li>
-      <li class="tux"><a href="/linux/" title="Configuration of and tips about
+      <li><a href="/categories/astronomy#cover" title="Our astrophysical observatory" tabindex="0">Astronomy</a></li>
+      <li><a href="/categories/joga#cover" title="Our online yoga site">Yoga</a></li>
+      <li><a href="/categories/philosophy#cover" title="Philosophy articles">Philosophy</a></li>
+      <li class="tux"><a href="/categories/linux#cover" title="Configuration of and tips about
           Linux and open source software">Linux</a></li>
 <!--      <li><a href="/2012/07/03/my-first-pos2.html" title="Bits &
           Bobs">Clicks <span class="amp">&amp;</span> Cuts</a></li> 
@@ -876,12 +1006,12 @@ for an implementation.
 <!--          Content <span class="amp">&amp;</span> Design by -->
           <a href="/info/site.html">Gorg Negre</a>,  <abbr class="date"
           title="2012">MMXII</abbr> thereon.
-        </p> 
+        </p>
         <p><a rel="license"
           href="http://creativecommons.org/licenses/by-nc-sa/3.0/"
           title="Content, unless specificed, licensed under a Creative
           Commons license">Some rights reserved</a>.
-        </p> 
+        </p>
 
         <p class="copyright">
           The content for this site was written using <a
@@ -900,14 +1030,14 @@ for an implementation.
       title="eXtensible Hyper Text Markup Language">XHTML</acronym></a>
       as <a rel="external"
       href="http://microformats.org/wiki/posh"><acronym title="plain old
-      semantic (X)HTML">POSH</acronym></a> as can be.</p> 
+      semantic (X)HTML">POSH</acronym></a> as can be.</p>
       </div>
 
       <div class="floatRight" style="width:auto">
         <p class="copyright">Avidly wandering dark skies
           since <abbr class="date" title="1985">MCMLXXXV</abbr>.</p>
         <p>Lovingly raising pleasure horses since <abbr class="date"
-            title="2011">MMXI</abbr>.</p> 
+            title="2011">MMXI</abbr>.</p>
         <p class="copyright">Laboriously farming Mas Gorg Negre since <abbr class="date"
             title="1463">MCDLXIII</abbr>.</p>
 <!--        <p>

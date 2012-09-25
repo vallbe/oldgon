@@ -45,23 +45,11 @@
     <link rel="shortcut icon" type="image/x-icon" href="/files/images/favicon.ico" />
     <link rel="canonical" href="http://www.gorgnegre.com/files/pages/archives.html" /> 
 
+    <script type="text/javascript" src="/files/js/cumulus.js"></script>
     <script type="text/javascript" src="/files/js/jquery-1.3.2.min.js"></script>
     <script type="text/javascript" src="/files/js/jquery.color.min.js"></script>
     <script type="text/javascript" src="/files/js/easySlider.min.js"></script>
     <script type="text/javascript">$(document).ready(function(){$("#slider").easySlider();});</script>
-
-<!--
-    <script type="text/javascript">
-        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-        try {
-            var pageTracker = _gat._getTracker("UA-4333113-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-    </script>
--->
 
 <!-- image menu: not working, from http://algorithmique.net/ -->
   <script type="text/javascript" charset="utf-8" src="/files/js/imagemenu.js"></script>
@@ -85,7 +73,21 @@
       });
   </script>
 
+<script type="text/javascript">
 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34187626-1']);
+  _gaq.push(['_setDomainName', 'gorgnegre.com']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 
 </head>
 
@@ -169,31 +171,20 @@
                 class="moin">::<span style="letter-spacing:-0px;">F</span>arming <span class="ampheader">&amp;</span> Stars::</p>
 
                 <p style="clear:both;">You might be looking for <a
-                href="http://www.gorgnegre.com/ecotourism">our rural
+                href="http://www.gorgnegre.cat">our rural
                 turism farmhouse</a>.</p><br />
 
                 <p style="clear:both;">This is a site about some of the
-                things we most care about:
-                <a href="http://localhost:4000/equi/">farming</a>
-                and the beautiful <a href="file:///allotjament/">rural
-                tourist</a> landscapes of central Catalunya.  There's
-                also a collection of articles about <a
-                href="file:///astro/">astrophysics</a>, <a
-                href="file:///filo/">philosophy</a>, <a
+                things we most care about: <a href="">farming</a> and
+                the beautiful <a href="">rural tourist</a> landscapes of
+                central Catalunya.  There's also a collection of
+                articles about <a
+                href="/astronomy/">astrophysics</a>, <a
+                href="/philosophy/">philosophy</a>, <a
                 href="/yoga">yoga</a>, <a
-                href="file:///linux/">Linux</a> and free software, plus
+                href="/categories/linux/">Linux</a> and free software, plus
                 a few other bits and bobs.</p>
 
-<!--                <p style="clear:both;">This is a site about <a
-                href="http://localhost:4000/equi/">farming</a>
-                and the beautiful <a href="file:///allotjament/">rural
-                tourist</a> landscapes of central Catalunya.  There's
-                also a collection of articles about <a
-                href="file:///astro/">astronomy</a>, <a
-                href="file:///filo/">philosophy</a>, <a href="/yoga">yoga</a>,
-                <a href="file:///linux/">Linux</a> and free software, plus
-                a few other bits and bobs.</p>
--->
             </div>
 
             <div class="skip">
@@ -208,12 +199,12 @@
 
           <div id="nav" class="clear">
             <ul class="nav nav-header caps">
-            <li><a href="/ecoturisme/" title="Rural Tourism, horses, bees,
+            <li><a href="/categories/ecotourism#cover" title="Rural Tourism, horses, bees,
       ...the farm" tabindex="0">Ecotourism</a></li>
-      <li><a href="/astro/" title="Our astrophysical observatory" tabindex="0">Astronomy</a></li>
-      <li><a href="/joga/" title="Our online yoga site">Yoga</a></li>
-      <li><a href="/filo/" title="Philosophy articles">Philosophy</a></li>
-      <li class="tux"><a href="/linux/" title="Configuration of and tips about
+      <li><a href="/categories/astronomy#cover" title="Our astrophysical observatory" tabindex="0">Astronomy</a></li>
+      <li><a href="/categories/joga#cover" title="Our online yoga site">Yoga</a></li>
+      <li><a href="/categories/philosophy#cover" title="Philosophy articles">Philosophy</a></li>
+      <li class="tux"><a href="/categories/linux#cover" title="Configuration of and tips about
           Linux and open source software">Linux</a></li>
 <!--      <li><a href="/2012/07/03/my-first-pos2.html" title="Bits &
           Bobs">Clicks <span class="amp">&amp;</span> Cuts</a></li> 
@@ -261,6 +252,28 @@
         
         
         <li>
+          <a href="/linux/public-encryption-key.html#notebook" title="Public Encryption Key">
+            <span class="date">
+              <span class="day">19</span>
+              <span class="month"><abbr>Aug</abbr></span>
+              <span class="year">2012</span>
+            </span>
+            <span class="title">Public Encryption Key</span>
+<!-- Using Text Markup in Front Matter. By default text in the Front
+Matter part of your file isn't processed by Jekyll's markup
+engine. However, you can use the Textilize filter to convert your Front
+Matter string into HTML, formatted using textile markup. -->
+            <span class="floatRight tags">
+              
+              &bull; gpg
+              
+            </span>
+          </a>
+        </li>
+        
+        
+        
+        <li>
           <a href="/linux/tree-command-as-a-sitemap-generator.html#notebook" title="Tree Command as a Sitemap Generator">
             <span class="date">
               <span class="day">22</span>
@@ -268,8 +281,6 @@
               <span class="year">2012</span>
             </span>
             <span class="title">Tree Command as a Sitemap Generator</span>
-            <span class=excerpt> <p>Simple use of the venerable =tree= command to produce a clickable html sitemap of a static website for humans.</p>
-            </span>
 <!-- Using Text Markup in Front Matter. By default text in the Front
 Matter part of your file isn't processed by Jekyll's markup
 engine. However, you can use the Textilize filter to convert your Front
@@ -298,8 +309,6 @@ Matter string into HTML, formatted using textile markup. -->
               <span class="year">2012</span>
             </span>
             <span class="title">Blogging with Emacs Org-mode and Jekyll</span>
-            <span class=excerpt> <p>How to set up the combo emacs org-mode &amp; jekyll to publish a static website/blog.</p>
-            </span>
 <!-- Using Text Markup in Front Matter. By default text in the Front
 Matter part of your file isn't processed by Jekyll's markup
 engine. However, you can use the Textilize filter to convert your Front
@@ -319,6 +328,436 @@ Matter string into HTML, formatted using textile markup. -->
         </li>
         
         
+        
+        <li>
+          <a href="/joga/curs-guiat-de-ioga-iyengar.html#notebook" title="Parighasana">
+            <span class="date">
+              <span class="day">01</span>
+              <span class="month"><abbr>Jan</abbr></span>
+              <span class="year">2010</span>
+            </span>
+            <span class="title">Parighasana</span>
+<!-- Using Text Markup in Front Matter. By default text in the Front
+Matter part of your file isn't processed by Jekyll's markup
+engine. However, you can use the Textilize filter to convert your Front
+Matter string into HTML, formatted using textile markup. -->
+            <span class="floatRight tags">
+              
+              &bull; ioga
+              
+              &bull; iyengar
+              
+              &bull; àssana
+              
+              &bull; empeus
+              
+            </span>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        <li>
+          <a href="/joga/utthita-trikonasana.html#notebook" title="Utthita Trikonasana">
+            <span class="date">
+              <span class="day">15</span>
+              <span class="month"><abbr>Dec</abbr></span>
+              <span class="year">2007</span>
+            </span>
+            <span class="title">Utthita Trikonasana</span>
+<!-- Using Text Markup in Front Matter. By default text in the Front
+Matter part of your file isn't processed by Jekyll's markup
+engine. However, you can use the Textilize filter to convert your Front
+Matter string into HTML, formatted using textile markup. -->
+            <span class="floatRight tags">
+              
+              &bull; ioga
+              
+              &bull; iyengar
+              
+              &bull; àssana
+              
+              &bull; empeus
+              
+            </span>
+          </a>
+        </li>
+        
+        
+        
+        <li>
+          <a href="/joga/parighasana.html#notebook" title="Parighasana">
+            <span class="date">
+              <span class="day">10</span>
+              <span class="month"><abbr>Dec</abbr></span>
+              <span class="year">2007</span>
+            </span>
+            <span class="title">Parighasana</span>
+<!-- Using Text Markup in Front Matter. By default text in the Front
+Matter part of your file isn't processed by Jekyll's markup
+engine. However, you can use the Textilize filter to convert your Front
+Matter string into HTML, formatted using textile markup. -->
+            <span class="floatRight tags">
+              
+              &bull; ioga
+              
+              &bull; iyengar
+              
+              &bull; àssana
+              
+              &bull; empeus
+              
+            </span>
+          </a>
+        </li>
+        
+        
+        
+        <li>
+          <a href="/joga/garudasana.html#notebook" title="Garudasana">
+            <span class="date">
+              <span class="day">05</span>
+              <span class="month"><abbr>Dec</abbr></span>
+              <span class="year">2007</span>
+            </span>
+            <span class="title">Garudasana</span>
+<!-- Using Text Markup in Front Matter. By default text in the Front
+Matter part of your file isn't processed by Jekyll's markup
+engine. However, you can use the Textilize filter to convert your Front
+Matter string into HTML, formatted using textile markup. -->
+            <span class="floatRight tags">
+              
+              &bull; ioga
+              
+              &bull; iyengar
+              
+              &bull; àssana
+              
+              &bull; empeus
+              
+            </span>
+          </a>
+        </li>
+        
+        
+        
+        <li>
+          <a href="/joga/tadasana.html#notebook" title="Utthita Trikonasana">
+            <span class="date">
+              <span class="day">01</span>
+              <span class="month"><abbr>Dec</abbr></span>
+              <span class="year">2007</span>
+            </span>
+            <span class="title">Utthita Trikonasana</span>
+<!-- Using Text Markup in Front Matter. By default text in the Front
+Matter part of your file isn't processed by Jekyll's markup
+engine. However, you can use the Textilize filter to convert your Front
+Matter string into HTML, formatted using textile markup. -->
+            <span class="floatRight tags">
+              
+              &bull; ioga
+              
+              &bull; iyengar
+              
+              &bull; àssana
+              
+              &bull; empeus
+              
+            </span>
+          </a>
+        </li>
+        
+        
+        
+        <li>
+          <a href="/joga/postures-drets-o-dempeus.html#notebook" title="Postures Drets o d'Empeus">
+            <span class="date">
+              <span class="day">30</span>
+              <span class="month"><abbr>Nov</abbr></span>
+              <span class="year">2007</span>
+            </span>
+            <span class="title">Postures Drets o d'Empeus</span>
+<!-- Using Text Markup in Front Matter. By default text in the Front
+Matter part of your file isn't processed by Jekyll's markup
+engine. However, you can use the Textilize filter to convert your Front
+Matter string into HTML, formatted using textile markup. -->
+            <span class="floatRight tags">
+              
+              &bull; ioga
+              
+              &bull; iyengar
+              
+            </span>
+          </a>
+        </li>
+        
+        
+        
+        <li>
+          <a href="/joga/bandhes.html#notebook" title="Bandhes">
+            <span class="date">
+              <span class="day">25</span>
+              <span class="month"><abbr>Nov</abbr></span>
+              <span class="year">2007</span>
+            </span>
+            <span class="title">Bandhes</span>
+<!-- Using Text Markup in Front Matter. By default text in the Front
+Matter part of your file isn't processed by Jekyll's markup
+engine. However, you can use the Textilize filter to convert your Front
+Matter string into HTML, formatted using textile markup. -->
+            <span class="floatRight tags">
+              
+              &bull; ioga
+              
+              &bull; iyengar
+              
+            </span>
+          </a>
+        </li>
+        
+        
+        
+        <li>
+          <a href="/joga/relaxacio.html#notebook" title="Relaxació">
+            <span class="date">
+              <span class="day">20</span>
+              <span class="month"><abbr>Nov</abbr></span>
+              <span class="year">2007</span>
+            </span>
+            <span class="title">Relaxació</span>
+<!-- Using Text Markup in Front Matter. By default text in the Front
+Matter part of your file isn't processed by Jekyll's markup
+engine. However, you can use the Textilize filter to convert your Front
+Matter string into HTML, formatted using textile markup. -->
+            <span class="floatRight tags">
+              
+              &bull; ioga
+              
+              &bull; iyengar
+              
+            </span>
+          </a>
+        </li>
+        
+        
+        
+        <li>
+          <a href="/joga/suports-i-complements.html#notebook" title="Suports i Complements">
+            <span class="date">
+              <span class="day">15</span>
+              <span class="month"><abbr>Nov</abbr></span>
+              <span class="year">2007</span>
+            </span>
+            <span class="title">Suports i Complements</span>
+<!-- Using Text Markup in Front Matter. By default text in the Front
+Matter part of your file isn't processed by Jekyll's markup
+engine. However, you can use the Textilize filter to convert your Front
+Matter string into HTML, formatted using textile markup. -->
+            <span class="floatRight tags">
+              
+              &bull; ioga
+              
+              &bull; iyengar
+              
+            </span>
+          </a>
+        </li>
+        
+        
+        
+        <li>
+          <a href="/joga/assanes-del-joga-iyengar.html#notebook" title="2. Àssanes del Joga Iyengar">
+            <span class="date">
+              <span class="day">10</span>
+              <span class="month"><abbr>Nov</abbr></span>
+              <span class="year">2007</span>
+            </span>
+            <span class="title">2. Àssanes del Joga Iyengar</span>
+<!-- Using Text Markup in Front Matter. By default text in the Front
+Matter part of your file isn't processed by Jekyll's markup
+engine. However, you can use the Textilize filter to convert your Front
+Matter string into HTML, formatted using textile markup. -->
+            <span class="floatRight tags">
+              
+              &bull; ioga
+              
+              &bull; iyengar
+              
+            </span>
+          </a>
+        </li>
+        
+        
+        
+        <li>
+          <a href="/joga/bibliografia.html#notebook" title="Bibliografia">
+            <span class="date">
+              <span class="day">05</span>
+              <span class="month"><abbr>Nov</abbr></span>
+              <span class="year">2007</span>
+            </span>
+            <span class="title">Bibliografia</span>
+<!-- Using Text Markup in Front Matter. By default text in the Front
+Matter part of your file isn't processed by Jekyll's markup
+engine. However, you can use the Textilize filter to convert your Front
+Matter string into HTML, formatted using textile markup. -->
+            <span class="floatRight tags">
+              
+              &bull; ioga
+              
+              &bull; iyengar
+              
+            </span>
+          </a>
+        </li>
+        
+        
+        
+        <li>
+          <a href="/joga/meditacio.html#notebook" title="Meditació">
+            <span class="date">
+              <span class="day">30</span>
+              <span class="month"><abbr>Oct</abbr></span>
+              <span class="year">2007</span>
+            </span>
+            <span class="title">Meditació</span>
+<!-- Using Text Markup in Front Matter. By default text in the Front
+Matter part of your file isn't processed by Jekyll's markup
+engine. However, you can use the Textilize filter to convert your Front
+Matter string into HTML, formatted using textile markup. -->
+            <span class="floatRight tags">
+              
+              &bull; ioga
+              
+              &bull; iyengar
+              
+            </span>
+          </a>
+        </li>
+        
+        
+        
+        <li>
+          <a href="/joga/anatomia-humana.html#notebook" title="Anatomia Humana">
+            <span class="date">
+              <span class="day">20</span>
+              <span class="month"><abbr>Oct</abbr></span>
+              <span class="year">2007</span>
+            </span>
+            <span class="title">Anatomia Humana</span>
+<!-- Using Text Markup in Front Matter. By default text in the Front
+Matter part of your file isn't processed by Jekyll's markup
+engine. However, you can use the Textilize filter to convert your Front
+Matter string into HTML, formatted using textile markup. -->
+            <span class="floatRight tags">
+              
+              &bull; ioga
+              
+              &bull; iyengar
+              
+            </span>
+          </a>
+        </li>
+        
+        
+        
+        <li>
+          <a href="/joga/estiraments.html#notebook" title="Estiraments">
+            <span class="date">
+              <span class="day">15</span>
+              <span class="month"><abbr>Oct</abbr></span>
+              <span class="year">2007</span>
+            </span>
+            <span class="title">Estiraments</span>
+<!-- Using Text Markup in Front Matter. By default text in the Front
+Matter part of your file isn't processed by Jekyll's markup
+engine. However, you can use the Textilize filter to convert your Front
+Matter string into HTML, formatted using textile markup. -->
+            <span class="floatRight tags">
+              
+              &bull; ioga
+              
+              &bull; iyengar
+              
+            </span>
+          </a>
+        </li>
+        
+        
+        
+        <li>
+          <a href="/joga/joga-de-tots-colors.html#notebook" title="Joga de Tots Colors">
+            <span class="date">
+              <span class="day">05</span>
+              <span class="month"><abbr>Oct</abbr></span>
+              <span class="year">2007</span>
+            </span>
+            <span class="title">Joga de Tots Colors</span>
+<!-- Using Text Markup in Front Matter. By default text in the Front
+Matter part of your file isn't processed by Jekyll's markup
+engine. However, you can use the Textilize filter to convert your Front
+Matter string into HTML, formatted using textile markup. -->
+            <span class="floatRight tags">
+              
+              &bull; ioga
+              
+              &bull; iyengar
+              
+            </span>
+          </a>
+        </li>
+        
+        
+        
+        <li>
+          <a href="/joga/instrument-de-salut.html#notebook" title="1. Instrument de Salut">
+            <span class="date">
+              <span class="day">04</span>
+              <span class="month"><abbr>Oct</abbr></span>
+              <span class="year">2007</span>
+            </span>
+            <span class="title">1. Instrument de Salut</span>
+<!-- Using Text Markup in Front Matter. By default text in the Front
+Matter part of your file isn't processed by Jekyll's markup
+engine. However, you can use the Textilize filter to convert your Front
+Matter string into HTML, formatted using textile markup. -->
+            <span class="floatRight tags">
+              
+              &bull; ioga
+              
+              &bull; iyengar
+              
+            </span>
+          </a>
+        </li>
+        
+        
+        
+        <li>
+          <a href="/joga/joga-presentacio.html#notebook" title="Presentació">
+            <span class="date">
+              <span class="day">25</span>
+              <span class="month"><abbr>Sep</abbr></span>
+              <span class="year">2007</span>
+            </span>
+            <span class="title">Presentació</span>
+<!-- Using Text Markup in Front Matter. By default text in the Front
+Matter part of your file isn't processed by Jekyll's markup
+engine. However, you can use the Textilize filter to convert your Front
+Matter string into HTML, formatted using textile markup. -->
+            <span class="floatRight tags">
+              
+              &bull; ioga
+              
+              &bull; iyengar
+              
+            </span>
+          </a>
+        </li>
+        
+        
     </ul>
     </div> <!-- /.index -->
     <div class="clear"></div>
@@ -326,12 +765,12 @@ Matter string into HTML, formatted using textile markup. -->
 
         <div id="footer" class="center clear">
     <ul class="nav nav-footer caps">
-                  <li><a href="/ecoturisme/" title="Rural Tourism, horses, bees,
+                  <li><a href="/categories/ecotourism#cover" title="Rural Tourism, horses, bees,
       ...the farm" tabindex="0">Ecotourism</a></li>
-      <li><a href="/astro/" title="Our astrophysical observatory" tabindex="0">Astronomy</a></li>
-      <li><a href="/joga/" title="Our online yoga site">Yoga</a></li>
-      <li><a href="/filo/" title="Philosophy articles">Philosophy</a></li>
-      <li class="tux"><a href="/linux/" title="Configuration of and tips about
+      <li><a href="/categories/astronomy#cover" title="Our astrophysical observatory" tabindex="0">Astronomy</a></li>
+      <li><a href="/categories/joga#cover" title="Our online yoga site">Yoga</a></li>
+      <li><a href="/categories/philosophy#cover" title="Philosophy articles">Philosophy</a></li>
+      <li class="tux"><a href="/categories/linux#cover" title="Configuration of and tips about
           Linux and open source software">Linux</a></li>
 <!--      <li><a href="/2012/07/03/my-first-pos2.html" title="Bits &
           Bobs">Clicks <span class="amp">&amp;</span> Cuts</a></li> 
@@ -350,12 +789,12 @@ Matter string into HTML, formatted using textile markup. -->
 <!--          Content <span class="amp">&amp;</span> Design by -->
           <a href="/info/site.html">Gorg Negre</a>,  <abbr class="date"
           title="2012">MMXII</abbr> thereon.
-        </p> 
+        </p>
         <p><a rel="license"
           href="http://creativecommons.org/licenses/by-nc-sa/3.0/"
           title="Content, unless specificed, licensed under a Creative
           Commons license">Some rights reserved</a>.
-        </p> 
+        </p>
 
         <p class="copyright">
           The content for this site was written using <a
@@ -374,14 +813,14 @@ Matter string into HTML, formatted using textile markup. -->
       title="eXtensible Hyper Text Markup Language">XHTML</acronym></a>
       as <a rel="external"
       href="http://microformats.org/wiki/posh"><acronym title="plain old
-      semantic (X)HTML">POSH</acronym></a> as can be.</p> 
+      semantic (X)HTML">POSH</acronym></a> as can be.</p>
       </div>
 
       <div class="floatRight" style="width:auto">
         <p class="copyright">Avidly wandering dark skies
           since <abbr class="date" title="1985">MCMLXXXV</abbr>.</p>
         <p>Lovingly raising pleasure horses since <abbr class="date"
-            title="2011">MMXI</abbr>.</p> 
+            title="2011">MMXI</abbr>.</p>
         <p class="copyright">Laboriously farming Mas Gorg Negre since <abbr class="date"
             title="1463">MCDLXIII</abbr>.</p>
 <!--        <p>

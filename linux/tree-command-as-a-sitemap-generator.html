@@ -45,23 +45,11 @@
     <link rel="shortcut icon" type="image/x-icon" href="/files/images/favicon.ico" />
     <link rel="canonical" href="http://www.gorgnegre.com/linux/tree-command-as-a-sitemap-generator.html" /> 
 
+    <script type="text/javascript" src="/files/js/cumulus.js"></script>
     <script type="text/javascript" src="/files/js/jquery-1.3.2.min.js"></script>
     <script type="text/javascript" src="/files/js/jquery.color.min.js"></script>
     <script type="text/javascript" src="/files/js/easySlider.min.js"></script>
     <script type="text/javascript">$(document).ready(function(){$("#slider").easySlider();});</script>
-
-<!--
-    <script type="text/javascript">
-        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-        try {
-            var pageTracker = _gat._getTracker("UA-4333113-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-    </script>
--->
 
 <!-- image menu: not working, from http://algorithmique.net/ -->
   <script type="text/javascript" charset="utf-8" src="/files/js/imagemenu.js"></script>
@@ -85,7 +73,21 @@
       });
   </script>
 
+<script type="text/javascript">
 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34187626-1']);
+  _gaq.push(['_setDomainName', 'gorgnegre.com']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 
 </head>
 
@@ -155,19 +157,30 @@
 				    </a>
                 </h1>
             </div>
-            <div class="hero floatRight colSix">
-                <p class="moin">You&#8217;re currently viewing a single article. Feel free to skip back to <a href="/" rel="home" title="Go back to the homepage" tabindex="0">&sect; Index</a> or straight to <a href="/#notebook" title="Skip straight to the latest article" tabindex="0" accesskey="L">&sect; Latest article</a>.</p>
+            <div class="herobis floatRight colSix">
+
+                <p style="margin-top:-5px;color:#0d1d26"
+                class="moin">:: 
+<a class="nocolor" href="/categories/linux/index.html#cover">Linux</a> 
+         ::</p>
+                 <p style="clear:both;">You&#8217;re currently viewing a single
+                article.</p>
+                 <p style="clear:both;">Feel free to skip back to <a href="/" rel="home"
+                title="Go back to the homepage" tabindex="0">&sect;
+                Index</a> or straight to <a href="/#notebook"
+                title="Skip straight to the latest article" tabindex="0"
+                accesskey="L">&sect; Latest article</a>.</p>
 			</div>
 		</div> <!-- /#header.center -->
 
           <div id="nav" class="clear">
             <ul class="nav nav-header caps">
-            <li><a href="/ecoturisme/" title="Rural Tourism, horses, bees,
+            <li><a href="/categories/ecotourism#cover" title="Rural Tourism, horses, bees,
       ...the farm" tabindex="0">Ecotourism</a></li>
-      <li><a href="/astro/" title="Our astrophysical observatory" tabindex="0">Astronomy</a></li>
-      <li><a href="/joga/" title="Our online yoga site">Yoga</a></li>
-      <li><a href="/filo/" title="Philosophy articles">Philosophy</a></li>
-      <li class="tux"><a href="/linux/" title="Configuration of and tips about
+      <li><a href="/categories/astronomy#cover" title="Our astrophysical observatory" tabindex="0">Astronomy</a></li>
+      <li><a href="/categories/joga#cover" title="Our online yoga site">Yoga</a></li>
+      <li><a href="/categories/philosophy#cover" title="Philosophy articles">Philosophy</a></li>
+      <li class="tux"><a href="/categories/linux#cover" title="Configuration of and tips about
           Linux and open source software">Linux</a></li>
 <!--      <li><a href="/2012/07/03/my-first-pos2.html" title="Bits &
           Bobs">Clicks <span class="amp">&amp;</span> Cuts</a></li> 
@@ -210,12 +223,88 @@
 
   <div id="notebook" class="center clear">
     <div class="page-nav-top">
+<!--
+
+  <div class="prev-box">
+    <div class="help">This post is part of a series called linux.</div>
+    <div class="help">The previous in the series is <a href="/linux/using-emacs-orgmode-to-blog-with-jekyll.html">Blogging with Emacs Org-mode and Jekyll</a> </div>
+            <span class=excerpt> <p>How to set up the combo emacs org-mode &amp; jekyll to publish a static website/blog.</p> </span>
+  </div>
+
+
+  <div class="next-box">
+    <div class="help">This post is part of a series called linux.</div>
+    <div class="help">The next in the series is <a href="/linux/public-encryption-key.html">Public Encryption Key</a> ()</div>
+            <span class=excerpt> Liquid error: can't convert nil into String </span>
+  </div>
+
+
+
+<div>Other posts in the linux series:</div>
+
+  
+  <div class="series-item">
+    <div class="title"><a href="/linux/using-emacs-orgmode-to-blog-with-jekyll.html">Blogging with Emacs Org-mode and Jekyll</a></div>
+    <div class="info"></div>
+  </div>
+  
+
+  
+  <div class="series-item current">
+    <div class="title">Tree Command as a Sitemap Generator</div>
+  </div>
+  
+
+  
+  <div class="series-item">
+    <div class="title"><a href="/linux/public-encryption-key.html">Public Encryption Key</a></div>
+    <div class="info"></div>
+  </div>
+  
+
+
+-->
+
       
-      <span class="page-nav-item floatLeft"><a class="internal" rel="prev"  href="/linux/using-emacs-orgmode-to-blog-with-jekyll.html#notebook" title="View Blogging with Emacs Org-mode and Jekyll">&larr; View previous article</a></span>
+      <span class="page-nav-item floatLeft"><a class="internal" rel="prev"  href="/linux/using-emacs-orgmode-to-blog-with-jekyll.html#notebook" title="View previous article: Blogging with Emacs Org-mode and Jekyll">&larr; Blogging with Emacs Org-mode and Jekyll </a></span>
       
+      
+      <span class="page-nav-item floatRight"><a class="internal" rel="next"  href="/linux/public-encryption-key.html#notebook" title="View next article: Public Encryption Key"> Public Encryption Key &rarr;</a></span>
       
     </div> <!-- /.page-nav-top -->
     <div class="entry-content colEight">
+      <span id="bread" class="floatRight">
+<ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a class="nocolor" href="/">home</a> &#187; </li>
+  
+  <li><a class="nocolor" href="/linux">linux</a> &#187; </li>
+  
+
+</ul>
+</span>
+
+
+
       <h2 class="clear">Tree Command as a Sitemap Generator</h2>
       <span class="date" title="2012-07-22T00:00:00+02:00">
         <span class="published">Published&thinsp;&bull;</span>
@@ -279,7 +368,7 @@ sitemap</a>. You can achieve better looks by playing a bit with CSS.
                    <code>files</code> and <code>tasks</code> subdirectories in my webserver
                    rootdir.
 </dd>
-<dt><code>-C</code></dt><dd>Colorise output.  Needed if you wish to use colors via CCS
+<dt><code>-C</code></dt><dd>Colourise output.  Needed if you wish to use colours via CCS
             stylesheet.
 </dd>
 <dt><code>-H</code> <i>baseHREF</i></dt><dd>turn on HTML output. <i>baseHREF</i> gives the base
@@ -298,7 +387,7 @@ sitemap</a>. You can achieve better looks by playing a bit with CSS.
 
 
 
-<pre class="example"><div class="highlight"><pre><code class="sh"> Sitemap <span class="k">for </span>www.gorgnegre.com
+<pre class="example"><div class="highlight"><pre><code class="text"> Sitemap for www.gorgnegre.com
 
    http://www.gorgnegre.com
    ├── linux/
@@ -314,6 +403,9 @@ sitemap</a>. You can achieve better looks by playing a bit with CSS.
 </pre>
 
 
+<p><br/><br/>
+<!-- hhmts start --> <!-- hhmts end --></p>
+
       <div class="meta">
         <!-- <span class="pdf">Download a <a href="/linux/tree-command-as-a-sitemap-generator.html.pdf" title="Download a PDF, printer-friendly copy of this article"><acronym title="Portable Document Format">PDF</acronym>, printer-friendly version of this article</a>.</span> -->
         <span class="permalink">For referencing: <a href="/linux/tree-command-as-a-sitemap-generator.html" title="[Permalink] Tree Command as a Sitemap Generator">permalink to this article</a>.</span>
@@ -321,20 +413,44 @@ sitemap</a>. You can achieve better looks by playing a bit with CSS.
     </div> <!-- /.entry-content.colEight -->
     <div class="page-nav-bottom">
       
-      <span class="page-nav-item floatLeft"><a class="internal" rel="prev"  href="/linux/using-emacs-orgmode-to-blog-with-jekyll.html#notebook" title="View Blogging with Emacs Org-mode and Jekyll">&larr; View previous article</a></span>
+      <span class="page-nav-item floatLeft"><a class="internal" rel="prev"  href="/linux/using-emacs-orgmode-to-blog-with-jekyll.html#notebook" title="View previous article: Blogging with Emacs Org-mode and Jekyll">&larr;  Blogging with Emacs Org-mode and Jekyll</a></span>
       
+      
+      <span class="page-nav-item floatRight"><a class="internal" rel="next"  href="/linux/public-encryption-key.html#notebook" title="View next article: Public Encryption Key">Public Encryption Key &rarr;</a></span>
       
     </div> <!-- /.page-nav-bottom -->
+
+    
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = 'gorgnegre'; // required: replace example with your forum shortname
+      var disqus_developer = 1; // This turns developer mode on
+                                // Make sure you remove this before you
+                                // push this to your live site.
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
   </div> <!-- #notebook.center.clear -->
 
         <div id="footer" class="center clear">
     <ul class="nav nav-footer caps">
-                  <li><a href="/ecoturisme/" title="Rural Tourism, horses, bees,
+                  <li><a href="/categories/ecotourism#cover" title="Rural Tourism, horses, bees,
       ...the farm" tabindex="0">Ecotourism</a></li>
-      <li><a href="/astro/" title="Our astrophysical observatory" tabindex="0">Astronomy</a></li>
-      <li><a href="/joga/" title="Our online yoga site">Yoga</a></li>
-      <li><a href="/filo/" title="Philosophy articles">Philosophy</a></li>
-      <li class="tux"><a href="/linux/" title="Configuration of and tips about
+      <li><a href="/categories/astronomy#cover" title="Our astrophysical observatory" tabindex="0">Astronomy</a></li>
+      <li><a href="/categories/joga#cover" title="Our online yoga site">Yoga</a></li>
+      <li><a href="/categories/philosophy#cover" title="Philosophy articles">Philosophy</a></li>
+      <li class="tux"><a href="/categories/linux#cover" title="Configuration of and tips about
           Linux and open source software">Linux</a></li>
 <!--      <li><a href="/2012/07/03/my-first-pos2.html" title="Bits &
           Bobs">Clicks <span class="amp">&amp;</span> Cuts</a></li> 
@@ -353,12 +469,12 @@ sitemap</a>. You can achieve better looks by playing a bit with CSS.
 <!--          Content <span class="amp">&amp;</span> Design by -->
           <a href="/info/site.html">Gorg Negre</a>,  <abbr class="date"
           title="2012">MMXII</abbr> thereon.
-        </p> 
+        </p>
         <p><a rel="license"
           href="http://creativecommons.org/licenses/by-nc-sa/3.0/"
           title="Content, unless specificed, licensed under a Creative
           Commons license">Some rights reserved</a>.
-        </p> 
+        </p>
 
         <p class="copyright">
           The content for this site was written using <a
@@ -377,14 +493,14 @@ sitemap</a>. You can achieve better looks by playing a bit with CSS.
       title="eXtensible Hyper Text Markup Language">XHTML</acronym></a>
       as <a rel="external"
       href="http://microformats.org/wiki/posh"><acronym title="plain old
-      semantic (X)HTML">POSH</acronym></a> as can be.</p> 
+      semantic (X)HTML">POSH</acronym></a> as can be.</p>
       </div>
 
       <div class="floatRight" style="width:auto">
         <p class="copyright">Avidly wandering dark skies
           since <abbr class="date" title="1985">MCMLXXXV</abbr>.</p>
         <p>Lovingly raising pleasure horses since <abbr class="date"
-            title="2011">MMXI</abbr>.</p> 
+            title="2011">MMXI</abbr>.</p>
         <p class="copyright">Laboriously farming Mas Gorg Negre since <abbr class="date"
             title="1463">MCDLXIII</abbr>.</p>
 <!--        <p>

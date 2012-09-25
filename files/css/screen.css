@@ -30,13 +30,33 @@
 
 html { overflow-y: scroll; } /* Fixes Firefox scrollbar jump */
 
+/* @font-face {
+    font-family: 'PenguinAttackGoN';
+    src: url(/files/fonts/PenguinAttack-gon.ttf)  format('truetype'),
+         local('Penguin Attack'), local('Penguin_Attack');
+ }*/
+
 @font-face {
     font-family: 'PenguinAttackGoN';
-    src: url(/files/fonts/PenguinAttack-gon.ttf);
-    src: local('Penguin Attack'), local('Penguin_Attack'),
-         url(/files/fonts/PenguinAttack-gon.ttf) format('truetype');
+    src: url('/files/fonts/penguinattack-gon.eot');
+    src: url('/files/fonts/penguinattack-gon.eot?#iefix') format('embedded-opentype'),
+         url('/files/fonts/penguinattack-gon.woff') format('woff'),
+         url('/files/fonts/penguinattack-gon.ttf') format('truetype'),
+         url('/files/fonts/penguinattack-gon.svg#PenguinAttackGoN') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
- }
+@font-face {
+    font-family: 'YogaFont';
+    src: url('/files/fonts/yogafont.eot');
+    src: url('/files/fonts/yogafont.eot?#iefix') format('embedded-opentype'),
+         url('/files/fonts/yogafont.woff') format('woff'),
+         url('/files/fonts/yogafont.ttf') format('truetype'),
+         url('/files/fonts/yogafont.svg#YogaFont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 @font-face {
     font-family: 'Museo Sans 500 Regular';
@@ -145,7 +165,7 @@ div#container {
     ---------------------------------------------------------*/
 
     /* This is our 464 sidebar */
-    div.hero, div.sidebar {
+    div.hero, div.herobis, div.sidebar {
         width: 46.4em; /* 464 */
         display: block;
         }
@@ -193,7 +213,7 @@ div#container {
             padding: 4em 6em 0 2em;
             }
     div.article-logo {
-        padding: 2.4em 0 4.8em 0;
+        padding: 0em 0 4.8em 0;
         }
     h1 {
          font-family: PenguinAttackGoN, Georgia, "DejaVu Serif", Times, "Times New Roman", serif;
@@ -218,7 +238,7 @@ div#container {
                 background-color: white;
                 }
     div.hero { width: 54.4em; /* Seven columns */ padding-top: 3.6em; }
-        div.hero p.moin {
+        div.hero p.moin, div.herobis p.moin {
             font-size: 2em;
             margin-bottom: 1em;
             letter-spacing: 0.025em; /* 0.5 */
@@ -231,7 +251,7 @@ div#container {
             line-height: 0.909; /* Back to 20 */
             }
         div.hero p { font-size: 1.6em; color: #333; }
-
+/*        div.herobis p { font-size: 1.6em; color: #333; }*/
 
 /*  Navigation elements
 
@@ -315,6 +335,7 @@ div#container {
             padding-bottom: 1.142em; /* 16 */
             margin: 0;
             }
+h3 { margin-top: 1.5em; }
         div.subhero-preview h3 {
             font-family: Georgia, "DejaVu Serif", Times, "Times New Roman", serif;
             font-size: 1.6em;
@@ -359,6 +380,7 @@ div#container {
             font-size:.8em;
             text-shadow: 1px 1px 1px white;
             margin: -0.5em 0 0 0;
+            font-size: 68%;
             }
         div.index span.title {
             position: relative;
@@ -456,6 +478,22 @@ div#container {
                 */
                 padding: 0 0.2em 0 0.5em;
                 }
+           span#bread {
+                display: block;
+                font-size: 1.225em;
+                color: #666;
+                text-align:right;
+                position: relative;
+                z-index: +2;
+                margin: -1em 0 -1.1em -0.5em;
+                background-color: white;
+                /*  Different metrics due to the width being
+                    calculated differently in FF due to lack
+                    of small-caps.
+                */
+                padding: 0 0.2em 0 0.5em;
+                }
+
         div.entry-content, div.page-content { margin: 0 auto; }
         div.entry-content span.tags + p {
             font-size: 1.8em; /* 18 */
@@ -490,7 +528,7 @@ div#container {
                     }
             div.entry-content p, div.page-content p { margin-bottom: 0.25em; }
             div.entry-content p + p, div.page-content p + p { text-indent: 1.8em; }
-            div.entry-content ul, div.entry-content ol, div.page-content ul, div.page-content ol {
+            div.entry-content dl, div.entry-content ul, div.entry-content ol, div.page-content dl, div.page-content ul, div.page-content ol {
                 margin-bottom: 0.5em;
                 font-size: 1.6em;
                 padding: 0;
@@ -526,6 +564,7 @@ div#container {
                 color: #444;
                 display: block;
                 }
+div.entry-content li > dl, div.page-content li > dl { font-size: 1em; }
             div.entry-content blockquote, div.page-content blockquote { margin: 1em 2.8em; color: #444; }
             div.entry-content blockquote p, div.page-content blockquote p { text-indent: 0; }
             div.entry-content a, div.page-content a  { color: #336699; }
@@ -749,7 +788,7 @@ span.tag:before, span.tag:after {
     text-align: right;
     /* ensure doesn't flow off the screen when expanded */
     max-height: 80%;
-    overflow: auto; 
+    overflow: auto;
     z-index: 200;
     -webkit-box-shadow: 0 0 1em #777777;
     -moz-box-shadow: 0 0 1em #777777;
@@ -763,11 +802,11 @@ span.tag:before, span.tag:after {
     font-weight: normal;
     padding-left: 0.5em;
     padding-top: 0.05em;
-    padding-bottom: 0.05em; 
+    padding-bottom: 0.05em;
 }
 
 #table-of-contents ul {
-    margin-left: 14pt; 
+    margin-left: 14pt;
     margin-bottom: 10pt;
     padding: 0
 }
@@ -790,8 +829,33 @@ span.tag:before, span.tag:after {
 #table-of-contents:hover #text-table-of-contents {
     display: block;
     padding: 0.5em;
-    margin-top: -1.5em; 
+    margin-top: -1.5em;
 }
 
+#bread ul {
+  padding-left: 0;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+#bread ul li {
+  display: inline;
+  font-size: 70%;
+}
 
+span.bold { font-weight: bold; }
 
+div.yogafont {
+        font-family: YogaFont;
+        position: relative;
+        text-align: center;
+        line-height: 1;
+        font-size: 24em;
+        font-weight: normal;
+        color:  #bb0000;
+        font-style: normal;
+        margin-bottom: -.375em;
+        letter-spacing: 0.031em; /* 2 */
+        }
+
+a.nocolor { color:inherit; }
+#bread a { color: inherit; }
