@@ -139,6 +139,15 @@ div#container {
                           content: " \0020 \00bc";
                           font-size: 0.8em;
                           }
+     .joga a:hover:after  {
+                          font-family: 'YogaFont';
+                          color:#000;
+                          content: "j";
+                          font-size: 1em;
+                            }
+a.independencia>div { display: none; }
+a.independencia:hover>div { display: inline; z-index: +3; }
+
     a { color: #336699; }
         a:hover, a:active, a:focus {
             color: #111;

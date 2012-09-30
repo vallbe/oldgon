@@ -9,7 +9,10 @@
 /404.html
 categories/joga/index.html
 categories/linux/index.html
+categories/Politics/index.html
+categories/Philosophy/index.html
 
+/Philosophy/Politics/Presidentials-in-Catalonia-2012-11-25.html
 /linux/public-encryption-key.html
 /linux/tree-command-as-a-sitemap-generator.html
 /linux/using-emacs-orgmode-to-blog-with-jekyll.html
